@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
 #include "GameFramework/Actor.h"
 
 #include "Components/HierarchicalInstancedStaticMeshComponent.h"
@@ -40,6 +41,37 @@ public:
 
 
 #pragma endregion MazeGenerationParams
+
+#pragma region MazeGenerationAlgorithm
+	
+	//The array that stores the information for every cell in the maze
+	UPROPERTY(BlueprintReadOnly)
+	TArray<int> Maze;
+	
+	//The stack of cells used in the generation algorithm
+	TArray<FVector2D> Stack;
+	
+	//These are written to indicate places as opposed to values, 
+	//letting me have 01111 represent an unvisited cell with all four directions as valid neighbors,
+	//10001 represent a visited cell with only the north cell as a valid neighbor, etc.
+	enum
+	{
+		PATH_NORTH = 0x01,
+		PATH_SOUTH = 0x02,
+		PATH_EAST = 0x04,
+		PATH_WEST = 0x08,
+		VISITED = 0x10,
+	};
+
+	//The seed used in the maze generation
+	UPROPERTY(ReplicatedUsing = OnRep_Seed)
+	int Seed;
+
+	//Random stream which seeded by Seed, 
+	//actually referenced in determining random directions to move during maze generator algorithm
+	FRandomStream Stream;
+
+#pragma endregion MazeGenerationAlgorithm
 
 #pragma region Claustrophobia
 	//The scale or the Perlin noise map used to remove walls from the maze.
@@ -118,59 +150,50 @@ public:
 
 #pragma endregion Environment
 
-#pragma region MazeGenerationAlgorithm
-	//The array that stores the information for every cell in the maze
-	UPROPERTY(BlueprintReadOnly)
-	TArray<int> Maze;
-	
-	//The stack of cells used in the generation algorithm
-	TArray<FVector2D> Stack;
-	
-	//Number of "visited" cells for exiting the while loop
-	int VisitedCells;
-	
-	//These are written to indicate places as opposed to values, 
-	//letting me have 01111 represent an unvisited cell with all four directions as valid neighbors,
-	//10001 represent a visited cell with only the north cell as a valid neighbor, etc.
-	enum
-	{
-		PATH_NORTH = 0x01,
-		PATH_SOUTH = 0x02,
-		PATH_EAST = 0x04,
-		PATH_WEST = 0x08,
-		VISITED = 0x10,
-	};
 
-	//The seed used in the maze generation
-	UPROPERTY(ReplicatedUsing = OnRep_Seed)
-	int Seed;
-
-	//Random stream which seeded by Seed, 
-	//actually referenced in determining random directions to move during maze generator algorithm
-	FRandomStream Stream;
-
-#pragma endregion MazeGenerationAlgorithm
 	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	//Called after everything has been initialized, but before BeginPlay()
+	virtual void PostInitializeComponents() override;
+	
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
+#pragma region MazeGeneration
+	
 	//Maze setup
-	bool InitMaze();
+	void InitMaze();
 
 	//Generating maze info
-	bool GenerateMaze();
+	void GenerateMaze();
 
+#pragma endregion MazeGeneration
+
+#pragma region MeshGeneration
+	
 	//Building out the maze based on the generated info
-	bool BuildMeshes();
+	void BuildMeshes();
 
-	//Called when the client recieves the maze seed from the server
+	void ConstructFloorAndCeiling(int Index);
+	
+	void ConstructLights(int Index);
+	
+	void ConstructWalls(int Index);
+	
+	void ConstructBorders(int Index);
+
+#pragma endregion MeshGeneration
+	
+	void CreateExitHatch();
+
+	//Called when the client receives the maze seed from the server
 	UFUNCTION()
 	void OnRep_Seed();
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 };
+
+
+

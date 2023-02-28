@@ -82,7 +82,7 @@ void ACPP_ExitHatch::CreateKeys(int Seed, int Width, int Height, float GridSize)
 			FActorSpawnParameters SpawnParams = FActorSpawnParameters();
 
 			FVector KeyLocation = FVector(KeyLocX + 0.5 * GridSize, KeyLocY + 0.5 * GridSize, 0);
-			FTransform KeyTransform = FTransform(FRotator(), KeyLocation, FVector(1));
+			FTransform KeyTransform = FTransform(FRotator(0), KeyLocation, FVector(1));
 			ACPP_ExitKey* NewKey = GetWorld()->SpawnActor<ACPP_ExitKey>(ExitKeyClass, KeyTransform, SpawnParams);
 			NewKey->ParentHatch = this;
 		}
