@@ -1,0 +1,1194 @@
+﻿Log file open, 02/17/23 17:53:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=13336)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Triiodide_Interview
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Triiodide_Interview.uproject -skipcompile""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (Release 2004) [10.0.19041.1165] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="7145ed2644654b25ef07c4803e4849f7"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.366935
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-8822D7D6460B11F2718CA38D7168C932
+         Session CrashGUID >====================================================
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogConfig: Display: Loading TVOS ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogConfig: Display: Loading Unix ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (Release 2004) [10.0.19041.1165] (), CPU: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz, GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.02.17-22.53.52:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.02.17-22.53.52:210][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.02.17-22.53.52:210][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.02.17-22.53.52:210][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.02.17-22.53.52:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.02.17-22.53.52:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.02.17-22.53.52:211][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.02.17-22.53.52:216][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.02.17-22.53.52:234][  0]LogD3D12RHI: Aftermath initialized
+[2023.02.17-22.53.52:234][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.02.17-22.53.52:495][  0]LogD3D12RHI: Found D3D12 adapter 0: Radeon RX 570 Series (Max supported Feature Level 12_0, shader model 6.6)
+[2023.02.17-22.53.52:495][  0]LogD3D12RHI: Adapter has 8171MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 2 output[s]
+[2023.02.17-22.53.52:583][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.02.17-22.53.52:583][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 0 output[s]
+[2023.02.17-22.53.52:583][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.02.17-22.53.52:584][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.02.17-22.53.52:584][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.02.17-22.53.52:584][  0]LogHAL: Display: Platform has ~ 16 GB [17097224192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.17-22.53.52:584][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.02.17-22.53.52:584][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.02.17-22.53.52:584][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.02.17-22.53.52:585][  0]LogConfig: CVar [[r.XGEShaderCompile:0]] deferred - dummy variable created
+[2023.02.17-22.53.52:585][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.02.17-22.53.52:585][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Saved/Config/WindowsEditor/Editor.ini]
+[2023.02.17-22.53.52:585][  0]LogInit: Computer: DESKTOP-4UF2QLF
+[2023.02.17-22.53.52:585][  0]LogInit: User: Caleb
+[2023.02.17-22.53.52:585][  0]LogInit: CPU Page size=4096, Cores=4
+[2023.02.17-22.53.52:585][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.02.17-22.53.52:585][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.02.17-22.53.52:585][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.02.17-22.53.52:585][  0]LogMemory: Process Physical Memory: 255.48 MB used, 275.12 MB peak
+[2023.02.17-22.53.52:585][  0]LogMemory: Process Virtual Memory: 200.15 MB used, 200.15 MB peak
+[2023.02.17-22.53.52:585][  0]LogMemory: Physical Memory: 7942.73 MB used,  8362.46 MB free, 16305.18 MB total
+[2023.02.17-22.53.52:585][  0]LogMemory: Virtual Memory: 14557.47 MB used,  13523.71 MB free, 28081.18 MB total
+[2023.02.17-22.53.52:585][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.02.17-22.53.52:591][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.02.17-22.53.52:604][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.02.17-22.53.52:605][  0]LogInit: Using OS detected language (en-US).
+[2023.02.17-22.53.52:605][  0]LogInit: Using OS detected locale (en-US).
+[2023.02.17-22.53.52:608][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.02.17-22.53.52:787][  0]LogInit: Setting process to per monitor DPI aware
+[2023.02.17-22.53.52:799][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.02.17-22.53.52:799][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2023.02.17-22.53.52:799][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2023.02.17-22.53.52:799][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.02.17-22.53.52:817][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.02.17-22.53.52:817][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.02.17-22.53.53:062][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.02.17-22.53.53:062][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.02.17-22.53.53:188][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.02.17-22.53.53:216][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.02.17-22.53.53:217][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.02.17-22.53.53:229][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.02.17-22.53.53:235][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.02.17-22.53.53:235][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.02.17-22.53.53:280][  0]LogD3D12RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2023.02.17-22.53.53:281][  0]LogWindows: Attached monitors:
+[2023.02.17-22.53.53:281][  0]LogWindows:     resolution: 1366x768, work area: (0, 0) -> (1366, 728), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.02.17-22.53.53:281][  0]LogWindows:     resolution: 1920x1200, work area: (1366, 0) -> (3286, 1160), device: '\\.\DISPLAY2'
+[2023.02.17-22.53.53:281][  0]LogWindows: Found 2 attached monitors.
+[2023.02.17-22.53.53:281][  0]LogWindows: EnumDisplayDevices:
+[2023.02.17-22.53.53:281][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.02.17-22.53.53:281][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1), name: '\\.\DISPLAY2'
+[2023.02.17-22.53.53:281][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.02.17-22.53.53:282][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0), name: '\\.\DISPLAY4'
+[2023.02.17-22.53.53:282][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0), name: '\\.\DISPLAY5'
+[2023.02.17-22.53.53:282][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0), name: '\\.\DISPLAY6'
+[2023.02.17-22.53.53:283][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0), name: '\\.\DISPLAY7'
+[2023.02.17-22.53.53:283][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2023.02.17-22.53.53:283][  0]LogD3D12RHI:     Adapter Name: Radeon RX 570 Series
+[2023.02.17-22.53.53:283][  0]LogD3D12RHI:   Driver Version: Adrenalin 2020 22.1.2 (internal:30.0.14023.3004, unified:30.0.14023.3004)
+[2023.02.17-22.53.53:283][  0]LogD3D12RHI:      Driver Date: 1-18-2022
+[2023.02.17-22.53.53:283][  0]LogRHI: Texture pool is 4664 MB (70% of 6663 MB)
+[2023.02.17-22.53.53:283][  0]LogD3D12RHI: Async texture creation enabled
+[2023.02.17-22.53.53:283][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.02.17-22.53.53:303][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Triiodide_Interview.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/TurnkeyReport_0.log" -log="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/TurnkeyLog_0.log" -project="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Triiodide_Interview.uproject"  -platform=all'
+[2023.02.17-22.53.53:303][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Triiodide_Interview.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/TurnkeyReport_0.log" -log="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/TurnkeyLog_0.log" -project="D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Triiodide_Interview.uproject"  -platform=all" ]
+[2023.02.17-22.53.53:324][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.02.17-22.53.53:332][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.02.17-22.53.53:332][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.17-22.53.53:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.17-22.53.53:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.02.17-22.53.53:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.02.17-22.53.53:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.17-22.53.53:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.17-22.53.53:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.17-22.53.53:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.02.17-22.53.53:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.17-22.53.53:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.17-22.53.53:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.02.17-22.53.53:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.02.17-22.53.53:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.02.17-22.53.53:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.17-22.53.53:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.17-22.53.53:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.17-22.53.53:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.02.17-22.53.53:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.17-22.53.53:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.17-22.53.53:377][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.02.17-22.53.53:385][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.17-22.53.53:387][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.02.17-22.53.53:387][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.02.17-22.53.53:387][  0]LogTargetPlatformManager:   ADPCM
+[2023.02.17-22.53.53:387][  0]LogTargetPlatformManager:   PCM
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager:   BINKA
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager:   OGG
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.02.17-22.53.53:389][  0]LogTargetPlatformManager:   OPUS
+[2023.02.17-22.53.53:433][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.02.17-22.53.53:438][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.02.17-22.53.53:441][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.02.17-22.53.53:441][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.02.17-22.53.53:441][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.02.17-22.53.53:442][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.02.17-22.53.53:442][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.02.17-22.53.53:442][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.02.17-22.53.53:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.02.17-22.53.53:446][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.02.17-22.53.53:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.17-22.53.53:446][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.02.17-22.53.53:465][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.02.17-22.53.53:465][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.17-22.53.53:465][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.02.17-22.53.53:616][  0]LogDerivedDataCache: Speed tests for C:/Users/Caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.15 seconds
+[2023.02.17-22.53.53:616][  0]LogDerivedDataCache: Display: Performance to C:/Users/Caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=373.80MBs, RandomWriteSpeed=6.30MBs. Assigned SpeedClass 'Local'
+[2023.02.17-22.53.53:617][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.02.17-22.53.53:617][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.02.17-22.53.53:617][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.02.17-22.53.53:862][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.02.17-22.53.53:862][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.02.17-22.53.53:862][  0]LogShaderCompilers: Guid format shader working directory is -66 characters bigger than the processId version (../../../../../../Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Intermediate/Shaders/WorkingDirectory/13924/).
+[2023.02.17-22.53.53:862][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caleb/AppData/Local/Temp/UnrealShaderWorkingDir/C6024B86479C43DA198A23A041A74443/'.
+[2023.02.17-22.53.53:863][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.02.17-22.53.53:863][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2023.02.17-22.53.55:364][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.02.17-22.53.55:364][  0]LogSlate: Using FreeType 2.10.0
+[2023.02.17-22.53.55:365][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.02.17-22.53.55:412][  0]LogAssetRegistry: FAssetRegistry took 0.0164 seconds to start up
+[2023.02.17-22.53.55:419][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.02.17-22.53.55:602][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.02.17-22.53.55:603][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.02.17-22.53.55:923][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.02.17-22.53.55:923][  0]LogDeviceProfileManager: Active device profile: [000007EA6759D040][000007EA5E3E5000 50] WindowsEditor
+[2023.02.17-22.53.55:924][  0]LogDeviceProfileManager: Profiles: [000007EA675978C0][000007EA5E3EA000 50] Windows, [000007EA6759D040][000007EA5E3E5000 50] WindowsEditor, [000007EA67598DC0][000007EA5E3E2800 50] WindowsServer, [000007EA6759C5C0][000007EA5E2FA000 50] WindowsClient, [000007EA6759DAC0][000007EA5E3E7800 50] IOS, [000007EA6759D200][000007EA677F0000 50] iPadAir2, [000007EA67599F40][000007EA677F7800 50] IPadPro, [000007EA67597380][000007EA677F5000 50] iPadAir3, [000007EA67595E80][000007EA677FA000 50] iPadAir4, [000007EA67596040][000007EA677FC800 50] iPadMini4, [000007EA67597000][000007EA4DF25000 50] iPadMini5, [000007EA6759B600][000007EA681F0000 50] iPadMini6, [000007EA68270540][000007EA681FA000 50] iPhone6S, [000007EA682708C0][000007EA681F7800 50] iPhone7, [000007EA68270C40][000007EA681F5000 50] iPodTouch7, [000007EA682732C0][000007EA681FC800 50] iPhone6SPlus, [000007EA68273640][000007EA677F2800 50] iPhone7Plus, [000007EA68271180][000007EA68210000 50] iPhoneSE, [000007EA68271500][000007EA68215000 50] iPhone8, [000007EA68271A40][000007EA68217800 50] iPhone8Plus, [000007EA68272A00][000007EA6821A000 50] iPhoneX, [000007EA68271880][000007EA6821C800 50] iPhoneXS, [000007EA68274600][000007EA681F2800 50] iPhoneXSMax, [000007EA68272F40][000007EA681C0000 50] iPhoneXR, [000007EA68271340][000007EA681C5000 50] iPhone11, [000007EA68270380][000007EA681C7800 50] iPhone11Pro, [000007EA68274B40][000007EA681CA000 50] iPhone11ProMax, [000007EA68270E00][000007EA681CC800 50] iPhoneSE2, [000007EA682716C0][000007EA68212800 50] iPhone12Mini, [000007EA68273480][000007EA681D0000 50] iPhone12, [000007EA68270700][000007EA681D5000 50] iPhone12Pro, [000007EA68274280][000007EA681D7800 50] iPhone12ProMax, [000007EA68273B80][000007EA681DA000 50] iPhone13Mini, [000007EA68275780][000007EA681DC800 50] iPhone13, [000007EA682740C0][000007EA681C2800 50] iPhone13Pro, [000007EA68271F80][000007EA68230000 50] iPhone13ProMax, [000007EA68272300][000007EA68235000 50] iPadPro105, [000007EA68273D40][000007EA68237800 50] iPadPro129, [000007EA68275080][000007EA6823A000 50] iPadPro97, [000007EA68275240][000007EA6823C800 50] iPadPro2_129, [000007EA68272140][000007EA681D2800 50] iPad5, [000007EA68275400][000007EA68240000 50] iPad6, [000007EA68276740][000007EA68245000 50] iPad7, [000007EA68270FC0][000007EA68247800 50] iPad8, [000007EA682755C0][000007EA6824A000 50] iPad9, [000007EA68273800][000007EA6824C800 50] iPadPro11, [000007EA68271DC0][000007EA68232800 50] iPadPro2_11, [000007EA68276040][000007EA68250000 50] iPadPro3_11, [000007EA68277380][000007EA68255000 50] iPadPro3_129, [000007EA68276900][000007EA68257800 50] iPadPro4_129, [000007EA682763C0][000007EA6825A000 50] iPadPro5_129, [000007EA682739C0][000007EA6825C800 50] AppleTV, [000007EA682724C0][000007EA68242800 50] AppleTV4K, [000007EA68272BC0][000007EA68260000 50] TVOS, [000007EA6827B280][000007EA68267800 50] Mac, [000007EA6827B600][000007EA68265000 50] MacEditor, [000007EA682786C0][000007EA6826A000 50] MacClient, [000007EA68270A80][000007EA6826C800 50] MacServer, [000007EA68278180][000007EA68290000 50] Linux, [000007EA68278A40][000007EA68292800 50] LinuxEditor, [000007EA682701C0][000007EA68297800 50] LinuxArm64Editor, [000007EA682794C0][000007EA6829A000 50] LinuxArm64, [000007EA68278C00][000007EA6829C800 50] LinuxClient, [000007EA68279BC0][000007EA68252800 50] LinuxArm64Client, [000007EA6827B980][000007EA68295000 50] LinuxServer, [000007EA6827A100][000007EA68280000 50] LinuxArm64Server, [000007EA68276200][000007EA68285000 50] Android, [000007EA68277700][000007EA68287800 50] Android_Preview_OpenGL, [000007EA68278500][000007EA6828A000 50] Android_Preview_Vulkan, [000007EA68279D80][000007EA6828C800 50] Android_Low, [000007EA68272D80][000007EA68262800 50] Android_Mid, [000007EA682747C0][000007EA682A0000 50] Android_High, [000007EA68274EC0][000007EA682A5000 50] Android_Default, [000007EA68273100][000007EA682A7800 50] Android_Adreno4xx, [000007EA68273F00][000007EA682AA000 50] Android_Adreno5xx_Low, [000007EA68279840][000007EA682AC800 50] Android_Adreno5xx, [000007EA68277A80][000007EA68282800 50] Android_Adreno6xx, [000007EA682778C0][000007EA682B0000 50] Android_Adreno6xx_Vulkan, [000007EA6827AF00][000007EA682B5000 50] Android_Adreno7xx, [000007EA68278340][000007EA682B7800 50] Android_Adreno7xx_Vulkan, [000007EA68279140][000007EA682BA000 50] Android_Mali_T6xx, [000007EA68270000][000007EA682BC800 50] Android_Mali_T7xx, [000007EA6827B440][000007EA682A2800 50] Android_Mali_T8xx, [000007EA68275B00][000007EA682C0000 50] Android_Mali_G71, [000007EA68279680][000007EA682C5000 50] Android_Mali_G72, [000007EA68274D00][000007EA682C7800 50] Android_Mali_G72_Vulkan, [000007EA6827AD40][000007EA682CA000 50] Android_Mali_G76, [000007EA68277540][000007EA682CC800 50] Android_Mali_G76_Vulkan, [000007EA68277000][000007EA682B2800 50] Android_Mali_G77, [000007EA68277FC0][000007EA682D0000 50] Android_Mali_G77_Vulkan, [000007EA6827B7C0][000007EA682D5000 50] Android_Mali_G78, [000007EA682771C0][000007EA682D7800 50] Android_Mali_G78_Vulkan, [000007EA68276580][000007EA682DA000 50] Android_Mali_G710, [000007EA6827A2C0][000007EA682DC800 50] Android_Mali_G710_Vulkan, [000007EA68279300][000007EA682C2800 50] Android_Xclipse_920, [000007EA68276E40][000007EA682E0000 50] Android_Xclipse_920_Vulkan, [000007EA68275CC0][000007EA682E5000 50] Android_Vulkan_SM5, [000007EA68272680][000007EA682E7800 50] Android_PowerVR_G6xxx, [000007EA6827A640][000007EA682EA000 50] Android_PowerVR_GT7xxx, [000007EA68279A00][000007EA682EC800 50] Android_PowerVR_GE8xxx, [000007EA68278DC0][000007EA682D2800 50] Android_PowerVR_GM9xxx, [000007EA68277E00][000007EA682F0000 50] Android_PowerVR_GM9xxx_Vulkan, [000007EA6827C940][000007EA682F5000 50] Android_TegraK1, [000007EA68275E80][000007EA682F7800 50] Android_Unknown_Vulkan, [000007EA6827BD00][000007EA682FA000 50] Oculus_Quest, [000007EA6827C400][000007EA682FC800 50] Oculus_Quest2, [000007EA68274440][000007EA682E2800 50] HoloLens, 
+[2023.02.17-22.53.55:924][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="Platform_InvalidHostPrerequisites", Error="Android Studio is not installed correctly.")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: HoloLens: (Status=Valid, Installed=10.0.18362.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: TVOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2023.02.17-22.53.55:927][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.18362.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2023.02.17-22.53.55:949][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.02.17-22.53.56:139][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.02.17-22.53.56:139][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.02.17-22.53.56:139][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.02.17-22.53.56:139][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.02.17-22.53.56:139][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.02.17-22.53.56:157][  0]LogNetVersion: Triiodide_Interview 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2919199359)
+[2023.02.17-22.53.56:294][  0]LogSlate: Border
+[2023.02.17-22.53.56:294][  0]LogSlate: BreadcrumbButton
+[2023.02.17-22.53.56:294][  0]LogSlate: Default
+[2023.02.17-22.53.56:294][  0]LogSlate: Icons.Save
+[2023.02.17-22.53.56:294][  0]LogSlate: Icons.Toolbar.Settings
+[2023.02.17-22.53.56:294][  0]LogSlate: ListView
+[2023.02.17-22.53.56:294][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.02.17-22.53.56:294][  0]LogSlate: SoftwareCursor_Grab
+[2023.02.17-22.53.56:294][  0]LogSlate: TableView.DarkRow
+[2023.02.17-22.53.56:294][  0]LogSlate: TableView.Row
+[2023.02.17-22.53.56:294][  0]LogSlate: TreeView
+[2023.02.17-22.53.56:496][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.56:527][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.56:527][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.56:649][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.02.17-22.53.56:649][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2023.02.17-22.53.56:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.02.17-22.53.57:035][  0]LogPython: Using Python 3.9.7
+[2023.02.17-22.53.57:912][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 2DCD5035437C951E17694AB7D8EB7A38 | Instance: B2654B6C4DDA1814983EFAB1C2730FD6 (DESKTOP-4UF2QLF-13924).
+[2023.02.17-22.53.57:951][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.02.17-22.53.57:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.02.17-22.53.58:437][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.58:446][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.58:472][  0]SourceControl: Source control is disabled
+[2023.02.17-22.53.58:498][  0]LogUProjectInfo: Found projects:
+[2023.02.17-22.53.58:974][  0]LogOpenImageDenoise: OIDN starting up
+[2023.02.17-22.53.59:134][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.02.17-22.53.59:186][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.17-22.53.59:186][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.17-22.53.59:418][  0]LogCollectionManager: Loaded 0 collections in 0.001074 seconds
+[2023.02.17-22.53.59:579][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Saved/Collections/' took 0.00s
+[2023.02.17-22.53.59:579][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Content/Developers/Caleb/Collections/' took 0.00s
+[2023.02.17-22.53.59:579][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Content/Collections/' took 0.00s
+[2023.02.17-22.53.59:998][  0]LogEngine: Initializing Engine...
+[2023.02.17-22.54.00:016][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.02.17-22.54.00:017][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.02.17-22.54.00:307][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.02.17-22.54.00:307][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.17-22.54.00:320][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-22.54.00:352][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.02.17-22.54.00:353][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.02.17-22.54.00:376][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.02.17-22.54.00:377][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.02.17-22.54.00:377][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.02.17-22.54.00:377][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.02.17-22.54.00:377][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.17-22.54.00:377][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.17-22.54.00:377][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.17-22.54.00:378][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.17-22.54.00:378][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.17-22.54.00:378][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.17-22.54.00:385][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.17-22.54.00:439][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.02.17-22.54.00:439][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.17-22.54.00:442][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.17-22.54.00:443][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.17-22.54.00:443][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.02.17-22.54.00:443][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.17-22.54.00:445][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.17-22.54.00:445][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.02.17-22.54.00:445][  0]LogInit: FAudioDevice initialized.
+[2023.02.17-22.54.00:445][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.02.17-22.54.00:445][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.02.17-22.54.00:445][  0]LogInit: Texture streaming: Enabled
+[2023.02.17-22.54.00:482][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.02.17-22.54.00:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.02.17-22.54.00:666][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.02.17-22.54.00:674][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.02.17-22.54.00:674][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: Triiodide_InterviewEditor Win64 Development
+[2023.02.17-22.54.03:447][  0]LogLiveCoding: Display: First instance in process group "UE_Triiodide_Interview_0xdb3128f0", spawning console
+[2023.02.17-22.54.03:447][  0]LogLiveCoding: Display: Waiting for server
+[2023.02.17-22.54.03:447][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.02.17-22.54.03:482][  0]LogInit: Transaction tracking system initialized
+[2023.02.17-22.54.03:571][  0]BlueprintLog: New page: Editor Load
+[2023.02.17-22.54.03:784][  0]LocalizationService: Localization service is disabled
+[2023.02.17-22.54.03:840][  0]TimingProfiler: Initialize
+[2023.02.17-22.54.03:840][  0]TimingProfiler: OnSessionChanged
+[2023.02.17-22.54.03:840][  0]LoadingProfiler: Initialize
+[2023.02.17-22.54.03:840][  0]LoadingProfiler: OnSessionChanged
+[2023.02.17-22.54.03:840][  0]NetworkingProfiler: Initialize
+[2023.02.17-22.54.03:840][  0]NetworkingProfiler: OnSessionChanged
+[2023.02.17-22.54.03:840][  0]MemoryProfiler: Initialize
+[2023.02.17-22.54.03:841][  0]MemoryProfiler: OnSessionChanged
+[2023.02.17-22.54.04:783][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/Triiodide_Repo/Triiodide-Technical-Interview/Triiodide_Interview/Content/' took 0.03s
+[2023.02.17-22.54.04:783][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.02.17-22.54.04:866][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.02.17-22.54.04:868][  0]SourceControl: Source control is disabled
+[2023.02.17-22.54.04:868][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.732
+[2023.02.17-22.54.04:869][  0]LightingResults: New page: Lighting Build
+[2023.02.17-22.54.04:877][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.02.17-22.54.04:877][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-22.54.04:877][  0]MapCheck: New page: Map Check
+[2023.02.17-22.54.04:877][  0]LightingResults: New page: Lighting Build
+[2023.02.17-22.54.04:884][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.17-22.54.04:887][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.17-22.54.04:969][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube should be resaved to improve async compilation performance.
+[2023.02.17-22.54.04:978][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400 should be resaved to improve async compilation performance.
+[2023.02.17-22.54.04:980][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Generation_Test_Map'.
+[2023.02.17-22.54.04:981][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.17-22.54.04:981][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-22.54.04:981][  0]LogAIModule: Creating AISystem for world Generation_Test_Map
+[2023.02.17-22.54.04:984][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.17-22.54.04:993][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.02.17-22.54.04:993][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.17-22.54.04:993][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2023.02.17-22.54.04:993][  0]LogFileHelpers: Loading map 'Generation_Test_Map' took 0.125
+[2023.02.17-22.54.05:006][  0]LogUnrealEdMisc: Total Editor Startup Time, took 14.870
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: ================================================
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.02.17-22.54.05:006][  0]LogShaderCompilers: Display: ================================================
+[2023.02.17-22.54.05:151][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-22.54.05:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-22.54.05:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-22.54.05:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-22.54.05:188][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:188][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:189][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:189][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:190][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:190][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:191][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:191][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:192][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:192][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:193][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:193][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:194][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:194][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:195][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:195][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:196][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:196][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:196][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.02.17-22.54.05:196][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.17-22.54.05:197][  0]LogFeaturePack: Error: Error in Feature pack D:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.02.17-22.54.05:501][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.02.17-22.54.05:503][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.02.17-22.54.05:505][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.02.17-22.54.05:507][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.02.17-22.54.05:508][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.17-22.54.05:531][  0]LogViewport: Scene viewport resized to 734x281, mode Windowed.
+[2023.02.17-22.54.05:908][  0]LogStall: Startup...
+[2023.02.17-22.54.05:910][  0]LogStall: Startup complete.
+[2023.02.17-22.54.05:921][  0]LogLoad: (Engine Initialization) Total time: 15.78 seconds
+[2023.02.17-22.54.05:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.02.17-22.54.05:999][  0]LogAssetRegistry: Asset discovery search completed in 10.5890 seconds
+[2023.02.17-22.54.06:011][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2023.02.17-22.54.06:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.02.17-22.54.06:157][  2]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.17-22.54.06:174][  3]LogActor: Warning: MyCPP_MazeGenerator_C /Engine/Transient.World_0:PersistentLevel.MyCPP_MazeGenerator_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.06:275][  5]LogActor: Warning: MyCPP_ExitHatch_C /Engine/Transient.World_2:PersistentLevel.MyCPP_ExitHatch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:743][667]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.17-22.54.12:751][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.17-22.54.12:751][667]PIE: New page: PIE session: Generation_Test_Map (Feb 17, 2023, 12:54:12 PM)
+[2023.02.17-22.54.12:754][667]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.02.17-22.54.12:754][667]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.17-22.54.12:754][667]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Generation_Test_Map
+[2023.02.17-22.54.12:755][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001277s)
+[2023.02.17-22.54.12:755][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Generation_Test_Map.Generation_Test_Map to /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map (0.001355s)
+[2023.02.17-22.54.12:755][667]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.17-22.54.12:756][667]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-22.54.12:756][667]LogAIModule: Creating AISystem for world Generation_Test_Map
+[2023.02.17-22.54.12:756][667]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2023.02.17-22.54.12:767][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.02.17-22.54.12:771][667]LogClass: Warning: Property CPP_SurvivalCharacter::CameraBoom (SourceClass: CPP_SurvivalCharacter) was not registered in GetLifetimeReplicatedProps. This property will not be replicated. Use DISABLE_REPLICATED_PROPERTY if not replicating was intentional.
+[2023.02.17-22.54.12:789][667]LogLoad: Game class is 'MyTriiodide_InterviewGameMode_C'
+[2023.02.17-22.54.12:790][667]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map up for play (max tick rate 0) at 2023.02.17-17.54.12
+[2023.02.17-22.54.12:790][667]LogWorld: Bringing up level for play took: 0.000480
+[2023.02.17-22.54.12:790][667]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.02.17-22.54.12:790][667]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.02.17-22.54.12:791][667]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.02.17-22.54.12:791][667]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.02.17-22.54.12:791][667]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.02.17-22.54.12:791][667]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2023.02.17-22.54.12:791][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:792][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:792][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:792][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:792][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:793][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:793][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:793][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:793][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:793][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:794][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:794][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:794][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:794][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:795][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:795][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:795][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:795][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:795][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:796][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:797][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:797][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:797][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:797][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:797][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:798][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:799][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:800][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:801][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:801][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:801][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:801][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:802][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:803][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:803][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:803][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:803][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:803][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:804][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:804][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:804][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:804][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:804][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:805][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:806][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:806][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:806][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:806][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:807][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:808][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:808][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:808][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:808][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:808][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:809][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:809][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:809][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:809][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:810][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:810][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:810][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:811][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:811][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:812][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:812][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:813][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:814][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:814][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:814][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:814][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:814][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:815][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:816][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:816][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:816][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:816][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:816][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:817][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:818][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:819][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:820][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:820][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:820][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:820][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:820][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:821][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:821][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:821][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:821][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:821][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:822][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:823][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:823][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:823][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:823][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_169 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:823][667]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:824][667]LogActor: Warning: MyCPP_ExitHatch_C /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_ExitHatch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.12:825][667]PIE: Server logged in
+[2023.02.17-22.54.12:825][667]PIE: Play in editor total start time 0.076 seconds.
+[2023.02.17-22.54.12:825][667]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.17-22.54.12:825][667]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-22.54.12:826][667]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2023.02.17-22.54.12:826][667]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.02.17-22.54.12:826][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.17-22.54.12:827][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.17-22.54.12:827][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.17-22.54.12:827][667]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.17-22.54.12:827][667]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.17-22.54.12:827][667]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.17-22.54.12:830][667]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.17-22.54.12:865][667]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.02.17-22.54.12:865][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.17-22.54.12:865][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.17-22.54.12:865][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.17-22.54.12:867][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.02.17-22.54.12:867][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.02.17-22.54.12:868][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.02.17-22.54.12:868][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.02.17-22.54.12:868][667]LogInit: FAudioDevice initialized.
+[2023.02.17-22.54.12:868][667]LogAudio: Display: Audio Device (ID: 2) registered with world 'Untitled'.
+[2023.02.17-22.54.12:884][667]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.02.17-22.54.12:884][667]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2023.02.17-22.54.12:885][667]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2023.02.17-22.54.12:885][667]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.02.17-22.54.12:885][667]LogNet: Game client on port 17777, rate 100000
+[2023.02.17-22.54.12:885][667]PIE: Client logged in
+[2023.02.17-22.54.12:885][667]PIE: Play in editor total start time 0.136 seconds.
+[2023.02.17-22.54.12:903][667]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.02.17-22.54.13:906][784]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53905
+[2023.02.17-22.54.13:906][784]LogHandshake: SendConnectChallenge. Timestamp: 1.173256, Cookie: 099140177143057216056163033172231118180075121081229221099105
+[2023.02.17-22.54.13:907][784]LogHandshake: SendChallengeResponse. Timestamp: 1.173256, Cookie: 099140177143057216056163033172231118180075121081229221099105
+[2023.02.17-22.54.13:915][785]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53905
+[2023.02.17-22.54.13:915][785]LogHandshake: SendChallengeAck. InCookie: 099140177143057216056163033172231118180075121081229221099105
+[2023.02.17-22.54.13:915][785]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53905
+[2023.02.17-22.54.13:915][785]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.02.17-22.54.13:915][785]LogNet: NotifyAcceptedConnection: Name: Generation_Test_Map, TimeStamp: 02/17/23 17:54:13, [UNetConnection] RemoteAddr: 127.0.0.1:53905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.02.17-22.54.13:915][785]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53905, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.02.17-22.54.13:916][785]LogNetVersion: Triiodide_Interview 1.0.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2242489527)
+[2023.02.17-22.54.13:916][785]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.02.17-22.54.13:923][786]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_Generation_Test_Map.Generation_Test_Map: Accepted
+[2023.02.17-22.54.13:923][786]LogNet: Remote platform little endian=1
+[2023.02.17-22.54.13:923][786]LogNet: This platform little endian=1
+[2023.02.17-22.54.13:925][786]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.02.17-22.54.13:932][787]LogNet: Login request: ?Name=DESKTOP-4UF2QLF-8A7F5527407E99CBA404B3B291A2AC80 userId: NULL:DESKTOP-4UF2QLF-8A7F5527407E99CBA404B3B291A2AC80 platform: NULL
+[2023.02.17-22.54.13:932][787]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_Generation_Test_Map, Game: /Game/Blueprints/Background_Infrastructure/MyTriiodide_InterviewGameMode.MyTriiodide_InterviewGameMode_C)
+[2023.02.17-22.54.13:932][787]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/UEDPIE_0_Generation_Test_Map?game=/Game/Blueprints/Background_Infrastructure/MyTriiodide_InterviewGameMode.MyTriiodide_InterviewGameMode_C
+[2023.02.17-22.54.13:932][787]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2023.02.17-22.54.13:933][787]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.02.17-22.54.13:933][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-22.54.13:940][787]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.17-22.54.13:941][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.02.17-22.54.13:944][787]LogAudio: Display: Audio Device (ID: 2) registered with world 'Generation_Test_Map'.
+[2023.02.17-22.54.13:944][787]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.17-22.54.13:944][787]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-22.54.13:944][787]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2023.02.17-22.54.13:945][787]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map up for play (max tick rate 0) at 2023.02.17-17.54.13
+[2023.02.17-22.54.13:945][787]LogWorld: Bringing up level for play took: 0.000348
+[2023.02.17-22.54.13:945][787]LogLoad: Took 0.012725 seconds to LoadMap(/Game/Maps/UEDPIE_0_Generation_Test_Map)
+[2023.02.17-22.54.13:956][788]LogNet: Client netspeed is 100000
+[2023.02.17-22.54.13:956][788]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=DESKTOP-4UF2QLF-8A7F5527407E99CBA404B3B291A2AC80?SplitscreenCount=1
+[2023.02.17-22.54.13:956][788]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2023.02.17-22.54.13:958][788]LogNet: Join succeeded: DESKTOP-4UF2QLF-8A7F
+[2023.02.17-22.54.14:084][790]LogActor: Warning: MyCPP_ExitHatch_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_ExitHatch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:086][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:087][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:087][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:087][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:087][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:087][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:088][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:088][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:088][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:088][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:088][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:089][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:089][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:089][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:089][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:090][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:090][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:090][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:090][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:090][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:091][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:091][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:091][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:091][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:092][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:092][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:092][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:092][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:093][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:093][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:093][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:093][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:093][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:094][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:095][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:095][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:095][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:095][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:095][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:096][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:096][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:096][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:096][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:097][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:097][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:098][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:098][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:098][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:098][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:099][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:099][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:099][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:099][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:100][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:100][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:101][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:101][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:102][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:102][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:103][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:103][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:103][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:103][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:104][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:104][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:104][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:104][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:104][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:105][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:105][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:105][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:105][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:106][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:106][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:107][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:107][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:107][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:108][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:108][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:108][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:108][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:108][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:109][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:109][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:109][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:110][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:110][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:110][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:110][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:111][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:111][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:111][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:112][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:112][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:113][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:113][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:113][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:113][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:114][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:114][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:114][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:114][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:114][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:115][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:115][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:115][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:115][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:116][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:116][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:116][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:116][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:117][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:118][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:118][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:118][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:119][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:119][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:119][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:120][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:120][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:121][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:121][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:121][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:121][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:122][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:122][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:122][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:122][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:122][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:123][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:123][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:123][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:123][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:124][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:124][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:124][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:124][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:124][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:125][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:125][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:125][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:125][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:125][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:126][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:127][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:127][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:127][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:127][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:128][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:128][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:128][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:128][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:147][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:147][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:148][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_169 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:148][790]LogActor: Warning: MyCPP_EnvironmentLight_C /Game/Maps/UEDPIE_1_Generation_Test_Map.Generation_Test_Map:PersistentLevel.MyCPP_EnvironmentLight_C_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.02.17-22.54.14:148][790]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2023.02.17-22.54.21:725][ 23]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+CPP_SurvivalCharacter.ServerInteract
+
+[2023.02.17-22.54.21:726][ 23]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: === Critical error: ===
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: 
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: Assertion failed: O != 0 [File:D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Inc\Triiodide_Interview\CPP_InteractibleInterface.gen.cpp] [Line: 119] 
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: 
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: 
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: 
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff83ac1e3a7 UnrealEditor-Triiodide_Interview.dll!ICPP_InteractibleInterface::Execute_Interact() [D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Inc\Triiodide_Interview\CPP_InteractibleInterface.gen.cpp:119]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff83ac19153 UnrealEditor-Triiodide_Interview.dll!ACPP_SurvivalCharacter::ServerInteract_Implementation() [D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Source\Triiodide_Interview\CPP_SurvivalCharacter.cpp:178]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff87130bc07 UnrealEditor-CoreUObject.dll!UFunction::Invoke() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:5912]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff871531837 UnrealEditor-CoreUObject.dll!UObject::ProcessEvent() [D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2003]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d2303f4 UnrealEditor-Engine.dll!AActor::ProcessEvent() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:1030]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d994f6b UnrealEditor-Engine.dll!FObjectReplicator::ReceivedRPC() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataReplication.cpp:1364]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d993490 UnrealEditor-Engine.dll!FObjectReplicator::ReceivedBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataReplication.cpp:1135]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d912ded UnrealEditor-Engine.dll!UActorChannel::ProcessBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataChannel.cpp:2930]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d91c087 UnrealEditor-Engine.dll!UActorChannel::ReceivedBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataChannel.cpp:2768]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d92053c UnrealEditor-Engine.dll!UChannel::ReceivedSequencedBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataChannel.cpp:416]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d91f7eb UnrealEditor-Engine.dll!UChannel::ReceivedNextBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataChannel.cpp:877]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d920117 UnrealEditor-Engine.dll!UChannel::ReceivedRawBunch() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\DataChannel.cpp:528]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86dfc9f6e UnrealEditor-Engine.dll!UNetConnection::ReceivedPacket() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\NetConnection.cpp:3202]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86dfcb571 UnrealEditor-Engine.dll!UNetConnection::ReceivedRawPacket() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\NetConnection.cpp:1594]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff849c9baf4 UnrealEditor-OnlineSubsystemUtils.dll!UIpNetDriver::TickDispatch() [D:\build\++UE5\Sync\Engine\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Private\IpNetDriver.cpp:1396]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86e0149ed UnrealEditor-Engine.dll!TBaseUObjectMethodDelegateInstance<0,UNetDriver,void __cdecl(float),FDefaultDelegateUserPolicy>::ExecuteIfSafe() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:611]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86d151810 UnrealEditor-Engine.dll!TMulticastDelegate<void __cdecl(float),FDefaultDelegateUserPolicy>::Broadcast() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:967]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff86dd96149 UnrealEditor-Engine.dll!UWorld::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:1373]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff85b54e5f5 UnrealEditor-UnrealEd.dll!UEditorEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:1777]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff85bedaac6 UnrealEditor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:474]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff604f282f6 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5215]
+[2023.02.17-22.54.25:984][ 23]LogWindows: Error: [Callstack] 0x00007ff604f40d9c UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:183]
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff604f40e8a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:147]
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff604f43c4d UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:283]
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff604f55564 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:330]
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff604f58736 UnrealEditor.exe!__scrt_common_main_seh() [d:\a01\_work\6\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff8d4597034 KERNEL32.DLL!UnknownFunction []
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: [Callstack] 0x00007ff8d64e2651 ntdll.dll!UnknownFunction []
+[2023.02.17-22.54.25:985][ 23]LogWindows: Error: 
+[2023.02.17-22.54.25:997][ 23]LogExit: Executing StaticShutdownAfterError
+[2023.02.17-22.54.25:998][ 23]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.02.17-22.54.25:998][ 23]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2023.02.17-22.54.25:998][ 23]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.02.17-22.54.26:027][ 23]Log file closed, 02/17/23 17:54:26
