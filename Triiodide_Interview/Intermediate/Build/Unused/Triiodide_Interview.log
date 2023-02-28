@@ -1,0 +1,21 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview).
+  Parsing headers for Triiodide_InterviewEditor
+    Running UnrealHeaderTool "D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Triiodide_Interview.uproject" "D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\Triiodide_InterviewEditor\Development\Triiodide_InterviewEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for Triiodide_InterviewEditor in 20.2704161 seconds
+  Building Triiodide_InterviewEditor...
+  Using Visual Studio 2019 14.29.30147 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+    Executing up to 4 processes, one per physical core
+  Building 6 actions with 4 processes...
+  [1/6] Compile Triiodide_Interview.init.gen.cpp
+  [2/6] Compile CPP_MazeGenerator.gen.cpp
+  [3/6] Compile CPP_MazeGenerator.cpp
+  [4/6] Link UnrealEditor-Triiodide_Interview.lib
+     Creating library D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.lib and object D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.exp
+  [5/6] Link UnrealEditor-Triiodide_Interview.dll
+     Creating library D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.suppressed.exp
+  [6/6] WriteMetadata Triiodide_InterviewEditor.target
+  Total time in Parallel executor: 28.72 seconds
+  Total execution time: 50.05 seconds
