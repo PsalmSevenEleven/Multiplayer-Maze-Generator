@@ -1,0 +1,29 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\source\\triiodide_interview\\cpp_survivalplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\triiodide_intervieweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\unrealeditor\\development\\triiodide_interview\\definitions.triiodide_interview.h",
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\source\\triiodide_interview\\cpp_survivalplayercontroller.h",
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\unrealeditor\\inc\\triiodide_interview\\cpp_survivalplayercontroller.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputactionvalue.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputmappingquery.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputmappingquery.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputmodifiers.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputtriggers.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputaction.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputmappingcontext.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\enhancedactionkeymapping.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\enhancedactionkeymapping.generated.h",
+            "d:\\program files\\epic games\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputmappingcontext.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

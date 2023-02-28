@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\source\\triiodide_interview\\cpp_exithatch.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\triiodide_intervieweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\unrealeditor\\development\\triiodide_interview\\definitions.triiodide_interview.h",
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\source\\triiodide_interview\\cpp_exithatch.h",
+            "d:\\users\\caleb\\documents\\github\\triiodide_repo\\triiodide-technical-interview\\triiodide_interview\\intermediate\\build\\win64\\unrealeditor\\inc\\triiodide_interview\\cpp_exithatch.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
