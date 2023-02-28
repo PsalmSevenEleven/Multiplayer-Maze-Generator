@@ -25,13 +25,15 @@ ACPP_SurvivalCharacter::ACPP_SurvivalCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+
 	//Create the camera boom and camera
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>("Camera Boom");
 	CameraBoom->SetupAttachment(RootComponent);
 
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(CameraBoom);
-
+	
+	
 	//Create the audio component
 	FootstepComp = CreateDefaultSubobject<UAudioComponent>("Audio Component");
 	FootstepComp->SetupAttachment(RootComponent);
@@ -47,22 +49,13 @@ void ACPP_SurvivalCharacter::BeginPlay()
 
 	//Make sure the actor replicates
 	bReplicates = true;
-
-	//I usually grab this now so that I don't have to keep calling GetCharacterMovement()
-	MovementComp = GetCharacterMovement();
+	
 }
 
 // Called every frame
 void ACPP_SurvivalCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	//If the camera boom and camera exist set their rotations to the value we calculate in the Look() method
-	if (CameraBoom && Controller)
-	{
-		CameraBoom->SetWorldRotation(ControlRotation);
-		Controller->SetControlRotation(ControlRotation);
-	}
 
 	if (UKismetMathLibrary::VSize2D(FVector2D(GetVelocity().X, GetVelocity().Y)) > 1)
 	{
@@ -82,19 +75,19 @@ void ACPP_SurvivalCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	
 
 	//Getting references to the input component and player controller, and casting to the proper classes
-	UEnhancedInputComponent* EIC = Cast<UEnhancedInputComponent>(PlayerInputComponent);
-	ACPP_SurvivalPlayerController* SPC = Cast<ACPP_SurvivalPlayerController>(Controller);
+	UEnhancedInputComponent* InputComp = Cast<UEnhancedInputComponent>(PlayerInputComponent);
+	ACPP_SurvivalPlayerController* PlayerControl = Cast<ACPP_SurvivalPlayerController>(Controller);
 
 
 	//If they exist and the casts were successful, bind the player's controls
-	if (EIC && SPC)
+	if (InputComp && PlayerControl)
 	{
-		EIC->BindAction(SPC->MoveAction, ETriggerEvent::Triggered, this, &ACPP_SurvivalCharacter::Move);
-		EIC->BindAction(SPC->MouseLookAction, ETriggerEvent::Triggered, this, &ACPP_SurvivalCharacter::Look);
-		EIC->BindAction(SPC->InteractAction, ETriggerEvent::Started, this, &ACPP_SurvivalCharacter::Interact);
-		EIC->BindAction(SPC->UseAction, ETriggerEvent::Started, this, &ACPP_SurvivalCharacter::Use);
+		InputComp->BindAction(PlayerControl->MoveAction, ETriggerEvent::Triggered, this, &ACPP_SurvivalCharacter::Move);
+		InputComp->BindAction(PlayerControl->MouseLookAction, ETriggerEvent::Triggered, this, &ACPP_SurvivalCharacter::Look);
+		InputComp->BindAction(PlayerControl->InteractAction, ETriggerEvent::Started, this, &ACPP_SurvivalCharacter::Interact);
+		InputComp->BindAction(PlayerControl->UseAction, ETriggerEvent::Started, this, &ACPP_SurvivalCharacter::Use);
 
-		ULocalPlayer* LocalPlayer = SPC->GetLocalPlayer();
+		ULocalPlayer* LocalPlayer = PlayerControl->GetLocalPlayer();
 		if (LocalPlayer)
 		{
 
@@ -104,7 +97,7 @@ void ACPP_SurvivalCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 			if (Subsystem)
 			{
 				Subsystem->ClearAllMappings();
-				Subsystem->AddMappingContext(SPC->PawnMappingContext, 0);
+				Subsystem->AddMappingContext(PlayerControl->PawnMappingContext, 0);
 			}
 		}
 	}
@@ -123,14 +116,13 @@ void ACPP_SurvivalCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 void ACPP_SurvivalCharacter::Move(const FInputActionValue& ActionValue)
 {
 	FVector Input = ActionValue.Get<FInputActionValue::Axis3D>();
-	MovementComp->AddInputVector(GetActorRotation().RotateVector(Input));
-
-	
+	GetCharacterMovement()->AddInputVector(GetActorRotation().RotateVector(Input));
 }
 
 //Tells the player character what its ControlRotation variable should be
 void ACPP_SurvivalCharacter::Look(const FInputActionValue& ActionValue)
 {
+	
 	//Making sure this character is locally controlled
 	if (GetLocalRole() == ROLE_AutonomousProxy)
 	{
@@ -141,7 +133,7 @@ void ACPP_SurvivalCharacter::Look(const FInputActionValue& ActionValue)
 		Input *= GetWorld()->GetDeltaSeconds()* MouseSensitivity;
 
 		//Add to the player's current control rotation
-		Input += ControlRotation;
+		Input += Controller->GetControlRotation();
 
 		//Keep the player from navel-gazing or playing limbo
 		Input.Pitch = FMath::ClampAngle(Input.Pitch, -89.9f, 89.9f);
@@ -149,11 +141,8 @@ void ACPP_SurvivalCharacter::Look(const FInputActionValue& ActionValue)
 		//Make sure the player doesn't start rolling sideways
 		Input.Roll = 0.f;
 
-		//Set the value of ControlRotation
-		ControlRotation = Input;
-
 		//Replicate ControlRotation
-		ServerLook(Input);
+		Controller->SetControlRotation(Input);
 	}
 }
 

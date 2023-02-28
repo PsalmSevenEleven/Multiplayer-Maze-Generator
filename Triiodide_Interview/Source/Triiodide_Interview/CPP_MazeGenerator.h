@@ -20,6 +20,8 @@ public:
 	// Sets default values for this actor's properties
 	ACPP_MazeGenerator();
 
+#pragma region MazeGenerationParams
+	
 	//Number of columns in the grid
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Maze Generation")
 		int MazeWidth;
@@ -36,7 +38,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Maze Generation")
 		float CeilingHeight;
 
-	
+
+#pragma endregion MazeGenerationParams
+
+#pragma region Claustrophobia
 	//The scale or the Perlin noise map used to remove walls from the maze.
 	//This controls how granular the 'biomes' are.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Claustrophobia")
@@ -47,7 +52,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Claustrophobia")
 		float ClaustrophobiaOffset;
 
+#pragma endregion Claustrophobia
 
+#pragma region Darkness
 	//These are similar to Claustrophobia, but with lights
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Darkness")
 		float DarknessScale;
@@ -57,7 +64,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Darkness")
 		float DarknessOffset;
 
+#pragma endregion Darkness
 
+#pragma region LightFlicker
 	//See line 51, but with light flicker
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Light Flicker")
 		float FlickerScale;
@@ -67,20 +76,59 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Light Flicker")
 		float FlickerOffset;
 
+#pragma endregion LightFlicker
 
+#pragma region MeshComponents
+	//The Heirarchical Instanced Static Mesh components that handle the meshes in the maze
+	UPROPERTY(EditAnywhere)
+	UHierarchicalInstancedStaticMeshComponent* MazeFloors;
+
+	UPROPERTY(EditAnywhere)
+	UHierarchicalInstancedStaticMeshComponent* MazeCeilings;
+
+	UPROPERTY(EditAnywhere)
+	UHierarchicalInstancedStaticMeshComponent* MazeWalls;
+
+#pragma endregion MeshComponents
+
+#pragma region Meshes
+	//The actual mesh references to be used when building the maze
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
+		UStaticMesh* MazeFloorMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
+		UStaticMesh* MazeWallMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
+		UStaticMesh* MazeCeilingMesh;
+
+#pragma endregion Meshes
+
+#pragma region Environment
+	
+	//The class of light to be used by the generator
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lights")
+		TSubclassOf<ACPP_EnvironmentLight> LightClass;
+
+
+	//The class of exit hatch to use in the level
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Escape Hatch")
+		TSubclassOf<class ACPP_ExitHatch> EscapeHatchClass;
+
+
+#pragma endregion Environment
+
+#pragma region MazeGenerationAlgorithm
 	//The array that stores the information for every cell in the maze
 	UPROPERTY(BlueprintReadOnly)
 	TArray<int> Maze;
-
-
+	
 	//The stack of cells used in the generation algorithm
 	TArray<FVector2D> Stack;
-
-
+	
 	//Number of "visited" cells for exiting the while loop
 	int VisitedCells;
-
-
+	
 	//These are written to indicate places as opposed to values, 
 	//letting me have 01111 represent an unvisited cell with all four directions as valid neighbors,
 	//10001 represent a visited cell with only the north cell as a valid neighbor, etc.
@@ -93,47 +141,16 @@ public:
 		VISITED = 0x10,
 	};
 
-
-	//The actual mesh references to be used when building the maze
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
-		UStaticMesh* MazeFloorMesh;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
-		UStaticMesh* MazeWallMesh;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Meshes")
-		UStaticMesh* MazeCeilingMesh;
-
-
-	//The class of light to be used by the generator
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lights")
-		TSubclassOf<ACPP_EnvironmentLight> LightClass;
-
-
-	//The class of exit hatch to use in the level
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Escape Hatch")
-		TSubclassOf<class ACPP_ExitHatch> EscapeHatchClass;
-
-
-	//The Heirarchical Instanced Static Mesh components that handle the meshes in the maze
-	UPROPERTY(EditAnywhere)
-	UHierarchicalInstancedStaticMeshComponent* MazeFloors;
-
-	UPROPERTY(EditAnywhere)
-	UHierarchicalInstancedStaticMeshComponent* MazeCeilings;
-
-	UPROPERTY(EditAnywhere)
-	UHierarchicalInstancedStaticMeshComponent* MazeWalls;
-
-	
 	//The seed used in the maze generation
 	UPROPERTY(ReplicatedUsing = OnRep_Seed)
-		int Seed;
+	int Seed;
 
 	//Random stream which seeded by Seed, 
 	//actually referenced in determining random directions to move during maze generator algorithm
 	FRandomStream Stream;
 
+#pragma endregion MazeGenerationAlgorithm
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
