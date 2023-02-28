@@ -1,0 +1,16 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview).
+  Building Triiodide_InterviewEditor...
+  Using Visual Studio 2019 14.29.30147 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+    Executing up to 4 processes, one per physical core
+  Building 4 actions with 4 processes...
+  [1/4] Compile CPP_SurvivalCharacter.cpp
+  [2/4] Link UnrealEditor-Triiodide_Interview.lib
+     Creating library D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.lib and object D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.exp
+  [3/4] Link UnrealEditor-Triiodide_Interview.dll
+     Creating library D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.suppressed.exp
+  [4/4] WriteMetadata Triiodide_InterviewEditor.target
+  Total time in Parallel executor: 3.54 seconds
+  Total execution time: 4.44 seconds

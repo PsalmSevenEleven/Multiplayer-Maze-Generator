@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Triiodide_Interview.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\Triiodide_InterviewEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_Interview.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_InterviewCharacter.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_InterviewGameMode.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_Interview.init.gen.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_InterviewCharacter.gen.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Triiodide_InterviewGameMode.gen.cpp.obj"
+"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\Default.rc2.res"
+/OUT:"D:\Users\Caleb\Documents\GitHub\Triiodide_Repo\Triiodide-Technical-Interview\Triiodide_Interview\Intermediate\Build\Win64\UnrealEditor\Development\Triiodide_Interview\UnrealEditor-Triiodide_Interview.lib"
