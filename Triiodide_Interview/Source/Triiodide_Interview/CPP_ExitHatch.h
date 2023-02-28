@@ -44,9 +44,7 @@ public:
 	//Generates the 'keys' that will activate the end objective
 	void CreateKeys(int Seed, int Width, int Height, float GridSize);
 
-	//Called by the keys when activated
-	void CompleteKey();
-
+	
 	//Called when all of the keys have been activated
 	//It's a BlueprintImplementableEvent because what the end objective does is pretty vague. 
 	//It could be a door opening, a water level rising, a monster trap activating, etc.

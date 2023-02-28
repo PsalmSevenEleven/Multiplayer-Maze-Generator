@@ -4,6 +4,7 @@
 #include "CPP_MazeGenerator.h"
 
 #include "CPP_ExitHatch.h"
+#include "Triiodide_InterviewGameMode.h"
 
 #include "Net/UnrealNetwork.h"
 
@@ -334,11 +335,11 @@ void ACPP_MazeGenerator::CreateExitHatch()
 	FActorSpawnParameters SpawnParams = FActorSpawnParameters();
 
 	//Min is 1 here to exclude the spawn cell
-	int HatchGridX = Stream.RandRange(1, MazeWidth - 1);
-	float HatchLocX = HatchGridX * GridSize;
+	int HatchGridX = Stream.RandRange(1, MazeWidth-1);
+	float HatchLocX = HatchGridX  * GridSize;
 
-	int HatchGridY = Stream.RandRange(1, MazeHeight - 1);
-	float HatchLocY = HatchGridY * GridSize;
+	int HatchGridY = Stream.RandRange(1, MazeHeight-1);
+	float HatchLocY = HatchGridY  * GridSize;
 
 	FVector HatchLocation = FVector(HatchLocX + 0.5 * GridSize, HatchLocY + 0.5 * GridSize, 0);
 	FTransform HatchTransform = FTransform(FRotator(0), HatchLocation, FVector(1));
@@ -351,6 +352,9 @@ void ACPP_MazeGenerator::CreateExitHatch()
 	//Tell the objective to place its 'keys' around the map.
 	//These keys could be generators, valves, switches, or some other interactible that will unlock the level's objective
 	Hatch->CreateKeys(Stream.GetCurrentSeed(), MazeWidth, MazeHeight, GridSize);
+
+	//Only ever called on the server
+	Cast<ATriiodide_InterviewGameMode>(GetWorld()->GetAuthGameMode())->LevelExitHatch = Hatch;
 }
 
 //Called by clients when Seed changes on the server.

@@ -7,6 +7,7 @@
 #include "CPP_SurvivalPlayerController.h"
 #include "Triiodide_InterviewGameMode.generated.h"
 
+
 UCLASS(minimalapi)
 class ATriiodide_InterviewGameMode : public AGameModeBase
 {
@@ -14,15 +15,23 @@ class ATriiodide_InterviewGameMode : public AGameModeBase
 public:
 
 	TArray<ACPP_SurvivalPlayerController*> Players;
+	
+	class ACPP_ExitHatch* LevelExitHatch;
 
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	int NumKeys;
 
+	
 	
 
 private:
 
 public:
 	ATriiodide_InterviewGameMode();
+
+	void CompleteKey();
+
+	void Unlock();
 };
 
 

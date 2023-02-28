@@ -1,6 +1,9 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "Triiodide_InterviewGameMode.h"
+
+#include "CPP_ExitHatch.h"
+#include "CPP_Triiodide_InterviewGSBase.h"
 #include "Triiodide_InterviewCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -12,4 +15,18 @@ ATriiodide_InterviewGameMode::ATriiodide_InterviewGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+}
+
+void ATriiodide_InterviewGameMode::CompleteKey()
+{
+	GetGameState<ACPP_Triiodide_InterviewGSBase>()->CompletedKeys++;
+	if (GetGameState<ACPP_Triiodide_InterviewGSBase>()->CompletedKeys == NumKeys)
+	{
+		Unlock();
+	}
+}
+
+void ATriiodide_InterviewGameMode::Unlock()
+{
+	LevelExitHatch->Unlock();
 }

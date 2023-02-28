@@ -4,6 +4,7 @@
 #include "CPP_ExitKey.h"
 
 #include "CPP_ExitHatch.h"
+#include "Triiodide_InterviewGameMode.h"
 // Sets default values
 ACPP_ExitKey::ACPP_ExitKey()
 {
@@ -25,6 +26,6 @@ void ACPP_ExitKey::BeginPlay()
 
 void ACPP_ExitKey::FinishActivation()
 {
-	ParentHatch->CompleteKey();
+	Cast<ATriiodide_InterviewGameMode>(GetWorld()->GetAuthGameMode())->CompleteKey();
 }
 

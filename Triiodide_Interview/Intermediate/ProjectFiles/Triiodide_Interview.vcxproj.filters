@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Triiodide_InterviewEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -84,6 +85,12 @@
       <Filter>Source\Triiodide_Interview</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Triiodide_Interview\CPP_SurvivalPlayerController.h">
+      <Filter>Source\Triiodide_Interview</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Triiodide_Interview\CPP_Triiodide_InterviewGSBase.cpp">
+      <Filter>Source\Triiodide_Interview</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Triiodide_Interview\CPP_Triiodide_InterviewGSBase.h">
       <Filter>Source\Triiodide_Interview</Filter>
     </ClInclude>
     <None Include="..\..\Source\Triiodide_Interview\Triiodide_Interview.Build.cs">

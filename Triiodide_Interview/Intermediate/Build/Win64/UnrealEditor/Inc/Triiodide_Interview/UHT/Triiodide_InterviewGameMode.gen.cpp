@@ -28,6 +28,11 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_NumKeys_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_NumKeys;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -43,6 +48,16 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData[] = {
+		{ "Category", "Triiodide_InterviewGameMode" },
+		{ "ModuleRelativePath", "Triiodide_InterviewGameMode.h" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys = { "NumKeys", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriiodide_InterviewGameMode, NumKeys), METADATA_PARAMS(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATriiodide_InterviewGameMode>::IsAbstract,
 	};
@@ -52,11 +67,11 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::Class_MetaDataParams))
@@ -80,9 +95,9 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATriiodide_InterviewGameMode, ATriiodide_InterviewGameMode::StaticClass, TEXT("ATriiodide_InterviewGameMode"), &Z_Registration_Info_UClass_ATriiodide_InterviewGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriiodide_InterviewGameMode), 2945101167U) },
+		{ Z_Construct_UClass_ATriiodide_InterviewGameMode, ATriiodide_InterviewGameMode::StaticClass, TEXT("ATriiodide_InterviewGameMode"), &Z_Registration_Info_UClass_ATriiodide_InterviewGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriiodide_InterviewGameMode), 436705128U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_3051477619(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_2108378796(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
