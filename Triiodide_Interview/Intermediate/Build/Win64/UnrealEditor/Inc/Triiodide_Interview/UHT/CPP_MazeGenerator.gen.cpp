@@ -43,9 +43,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//Called when the client recieves the maze seed from the server\n" },
+		{ "Comment", "//Called when the client receives the maze seed from the server\n" },
 		{ "ModuleRelativePath", "CPP_MazeGenerator.h" },
-		{ "ToolTip", "Called when the client recieves the maze seed from the server" },
+		{ "ToolTip", "Called when the client receives the maze seed from the server" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_MazeGenerator, nullptr, "OnRep_Seed", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed_Statics::Function_MetaDataParams)) };
@@ -86,6 +86,15 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CeilingHeight_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_CeilingHeight;
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Maze_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Maze_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_Maze;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Seed_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Seed;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ClaustrophobiaScale_MetaData[];
 #endif
@@ -142,15 +151,6 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_EscapeHatchClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_EscapeHatchClass;
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Maze_Inner;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Maze_MetaData[];
-#endif
-		static const UECodeGen_Private::FArrayPropertyParams NewProp_Maze;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Seed_MetaData[];
-#endif
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Seed;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -160,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Triiodide_Interview,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACPP_MazeGenerator_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed, "OnRep_Seed" }, // 4152577368
+		{ &Z_Construct_UFunction_ACPP_MazeGenerator_OnRep_Seed, "OnRep_Seed" }, // 1339604008
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::Class_MetaDataParams[] = {
@@ -204,6 +204,24 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_CeilingHeight = { "CeilingHeight", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, CeilingHeight), METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_CeilingHeight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_CeilingHeight_MetaData)) };
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_Inner = { "Maze", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData[] = {
+		{ "Category", "CPP_MazeGenerator" },
+		{ "Comment", "//The array that stores the information for every cell in the maze\n" },
+		{ "ModuleRelativePath", "CPP_MazeGenerator.h" },
+		{ "ToolTip", "The array that stores the information for every cell in the maze" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze = { "Maze", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, Maze), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData[] = {
+		{ "Comment", "//The seed used in the maze generation\n" },
+		{ "ModuleRelativePath", "CPP_MazeGenerator.h" },
+		{ "ToolTip", "The seed used in the maze generation" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed = { "Seed", "OnRep_Seed", (EPropertyFlags)0x0010000100000020, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, Seed), METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_ClaustrophobiaScale_MetaData[] = {
 		{ "Category", "Claustrophobia" },
@@ -325,29 +343,14 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_EscapeHatchClass = { "EscapeHatchClass", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, EscapeHatchClass), Z_Construct_UClass_UClass, Z_Construct_UClass_ACPP_ExitHatch_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_EscapeHatchClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_EscapeHatchClass_MetaData)) };
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_Inner = { "Maze", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData[] = {
-		{ "Category", "CPP_MazeGenerator" },
-		{ "Comment", "//The array that stores the information for every cell in the maze\n" },
-		{ "ModuleRelativePath", "CPP_MazeGenerator.h" },
-		{ "ToolTip", "The array that stores the information for every cell in the maze" },
-	};
-#endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze = { "Maze", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, Maze), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData[] = {
-		{ "Comment", "//The seed used in the maze generation\n" },
-		{ "ModuleRelativePath", "CPP_MazeGenerator.h" },
-		{ "ToolTip", "The seed used in the maze generation" },
-	};
-#endif
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed = { "Seed", "OnRep_Seed", (EPropertyFlags)0x0010000100000020, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_MazeGenerator, Seed), METADATA_PARAMS(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACPP_MazeGenerator_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_MazeWidth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_MazeHeight,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_GridSize,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_CeilingHeight,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_ClaustrophobiaScale,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_ClaustrophobiaOffset,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_DarknessScale,
@@ -362,9 +365,6 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_MazeCeilingMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_LightClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_EscapeHatchClass,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze_Inner,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Maze,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_MazeGenerator_Statics::NewProp_Seed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACPP_MazeGenerator_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACPP_MazeGenerator>::IsAbstract,
@@ -413,9 +413,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_MazeGenerator() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_MazeGenerator_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_MazeGenerator, ACPP_MazeGenerator::StaticClass, TEXT("ACPP_MazeGenerator"), &Z_Registration_Info_UClass_ACPP_MazeGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_MazeGenerator), 1461093199U) },
+		{ Z_Construct_UClass_ACPP_MazeGenerator, ACPP_MazeGenerator::StaticClass, TEXT("ACPP_MazeGenerator"), &Z_Registration_Info_UClass_ACPP_MazeGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_MazeGenerator), 3350753763U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_MazeGenerator_h_2308206436(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_MazeGenerator_h_1656362302(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_MazeGenerator_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_MazeGenerator_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -15,6 +15,10 @@ public:
 
 	TArray<ACPP_SurvivalPlayerController*> Players;
 
+	int NumKeys;
+
+	
+
 private:
 
 public:

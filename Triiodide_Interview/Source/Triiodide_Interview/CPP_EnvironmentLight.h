@@ -18,6 +18,8 @@ public:
 	// Sets default values for this actor's properties
 	ACPP_EnvironmentLight();
 
+#pragma region Components
+	
 	//The actual point light
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UPointLightComponent* Light;
@@ -25,9 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAudioComponent* AudioComp;
 
-	//The intensity of the light, used in the flicker
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float LightIntensity;
+#pragma endregion Components
+
+#pragma region Flicker
 
 	//The time between flicker checks
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -41,7 +43,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float FlickerChance;
 
+#pragma endregion Flicker
 
+	//The intensity of the light, used in the flicker
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float LightIntensity;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -49,18 +56,13 @@ protected:
 	
 
 public:	
-	// Unnecessary
-	virtual void Tick(float DeltaTime) override;
 
 	//Try to flicker
+	UFUNCTION()
 	void FlickerCheck();
 
 	//Blueprint native event for easier customizability
 	UFUNCTION(BlueprintImplementableEvent)
 	void Flicker();
-
-	//Start the timer to check for a flicker
-	UFUNCTION(BlueprintCallable)
-		void StartFlickerCheckTimer();
-
+	
 };

@@ -22,11 +22,6 @@ void ACPP_ExitKey::BeginPlay()
 	
 }
 
-// Called every frame
-void ACPP_ExitKey::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-}
 
 void ACPP_ExitKey::FinishActivation()
 {
