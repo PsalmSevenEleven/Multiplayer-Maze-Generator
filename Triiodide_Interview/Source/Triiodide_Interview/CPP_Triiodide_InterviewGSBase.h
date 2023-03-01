@@ -14,5 +14,7 @@ class TRIIODIDE_INTERVIEW_API ACPP_Triiodide_InterviewGSBase : public AGameState
 {
 	GENERATED_BODY()
 public:
+
+	//The number of keys that the players have currently completed (turning a crank, flipping a lever, etc.)
 	int CompletedKeys;
 };

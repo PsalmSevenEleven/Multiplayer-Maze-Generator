@@ -51,7 +51,9 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData[] = {
 		{ "Category", "Triiodide_InterviewGameMode" },
+		{ "Comment", "//The number of keys required to complete the level objective\n" },
 		{ "ModuleRelativePath", "Triiodide_InterviewGameMode.h" },
+		{ "ToolTip", "The number of keys required to complete the level objective" },
 	};
 #endif
 	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys = { "NumKeys", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriiodide_InterviewGameMode, NumKeys), METADATA_PARAMS(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriiodide_InterviewGameMode_Statics::NewProp_NumKeys_MetaData)) };
@@ -95,9 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeTriiodide_InterviewGameMode() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATriiodide_InterviewGameMode, ATriiodide_InterviewGameMode::StaticClass, TEXT("ATriiodide_InterviewGameMode"), &Z_Registration_Info_UClass_ATriiodide_InterviewGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriiodide_InterviewGameMode), 436705128U) },
+		{ Z_Construct_UClass_ATriiodide_InterviewGameMode, ATriiodide_InterviewGameMode::StaticClass, TEXT("ATriiodide_InterviewGameMode"), &Z_Registration_Info_UClass_ATriiodide_InterviewGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriiodide_InterviewGameMode), 2381633739U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_2108378796(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_2219771114(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_Triiodide_InterviewGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

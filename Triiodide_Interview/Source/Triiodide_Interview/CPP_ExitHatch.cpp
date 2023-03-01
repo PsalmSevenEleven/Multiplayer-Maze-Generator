@@ -2,6 +2,8 @@
 
 
 #include "CPP_ExitHatch.h"
+
+#include "Triiodide_InterviewGameMode.h"
 #include "GameFramework/GameStateBase.h"
 
 // Sets default values
@@ -49,6 +51,8 @@ void ACPP_ExitHatch::CreateKeys(int Seed, int Width, int Height, float GridSize)
 	Grid[0].Add(0);
 	Grid[CurrentX].Add(CurrentY);
 
+	int NumKeys = Cast<ATriiodide_InterviewGameMode>(GetWorld()->GetAuthGameMode())->NumKeys;
+	
 	//Once for every key we want to create:
 	for (int i = 1; i <= NumKeys; i++)
 	{
@@ -115,6 +119,3 @@ void ACPP_ExitHatch::CreateKeys(int Seed, int Width, int Height, float GridSize)
 		ACPP_ExitKey* NewKey = GetWorld()->SpawnActor<ACPP_ExitKey>(ExitKeyClass, KeyTransform, SpawnParams);
 	}
 }
-
-
-

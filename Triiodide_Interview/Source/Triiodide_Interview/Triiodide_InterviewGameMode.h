@@ -18,6 +18,7 @@ public:
 	
 	class ACPP_ExitHatch* LevelExitHatch;
 
+	//The number of keys required to complete the level objective
 	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	int NumKeys;
 

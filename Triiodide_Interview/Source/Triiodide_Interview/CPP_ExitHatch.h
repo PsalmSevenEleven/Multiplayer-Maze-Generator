@@ -16,17 +16,11 @@ class TRIIODIDE_INTERVIEW_API ACPP_ExitHatch : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ACPP_ExitHatch();
-
-	//Number of keys to generate
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Keys")
-		int NumKeys;
-
+	
 	//Kind of key to generate
 	UPROPERTY(EditAnywhere, Category = "Keys")
 		TSubclassOf<ACPP_ExitKey> ExitKeyClass;
-
-
-	int CompletedKeys;
+	
 
 	//These store the current cell coords for the ExitHatch so that when it generates the keys, it can exclude its own cell
 	int CurrentX;
