@@ -16,12 +16,6 @@ ACPP_ExitKey::ACPP_ExitKey()
 
 }
 
-// Called when the game starts or when spawned
-void ACPP_ExitKey::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
 
 
 void ACPP_ExitKey::FinishActivation()
