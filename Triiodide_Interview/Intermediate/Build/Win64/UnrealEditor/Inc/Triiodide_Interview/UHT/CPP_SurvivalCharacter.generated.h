@@ -15,19 +15,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TRIIODIDE_INTERVIEW_CPP_SurvivalCharacter_generated_h
 
 #define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_SPARSE_DATA
-#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_RPC_WRAPPERS \
-	virtual void ServerLook_Implementation(FRotator Rot); \
-	virtual void ServerInteract_Implementation(); \
- \
-	DECLARE_FUNCTION(execServerLook); \
-	DECLARE_FUNCTION(execServerInteract);
-
-
+#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void ServerLook_Implementation(FRotator Rot); \
 	virtual void ServerInteract_Implementation(); \
  \
-	DECLARE_FUNCTION(execServerLook); \
 	DECLARE_FUNCTION(execServerInteract);
 
 
@@ -40,43 +32,13 @@ private: \
 public: \
 	DECLARE_CLASS(ACPP_SurvivalCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Triiodide_Interview"), NO_API) \
 	DECLARE_SERIALIZER(ACPP_SurvivalCharacter) \
+	NO_API void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override; \
 	enum class ENetFields_Private : uint16 \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		CameraBoom=NETFIELD_REP_START, \
-		ControlRotation, \
-		NETFIELD_REP_END=ControlRotation	}; \
+		NETFIELD_REP_END=CameraBoom	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
-
-
-#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_INCLASS \
-private: \
-	static void StaticRegisterNativesACPP_SurvivalCharacter(); \
-	friend struct Z_Construct_UClass_ACPP_SurvivalCharacter_Statics; \
-public: \
-	DECLARE_CLASS(ACPP_SurvivalCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Triiodide_Interview"), NO_API) \
-	DECLARE_SERIALIZER(ACPP_SurvivalCharacter) \
-	enum class ENetFields_Private : uint16 \
-	{ \
-		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
-		CameraBoom=NETFIELD_REP_START, \
-		ControlRotation, \
-		NETFIELD_REP_END=ControlRotation	}; \
-	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
-
-
-#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACPP_SurvivalCharacter(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACPP_SurvivalCharacter) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACPP_SurvivalCharacter); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPP_SurvivalCharacter); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API ACPP_SurvivalCharacter(ACPP_SurvivalCharacter&&); \
-	NO_API ACPP_SurvivalCharacter(const ACPP_SurvivalCharacter&); \
-public: \
-	NO_API virtual ~ACPP_SurvivalCharacter();
 
 
 #define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_ENHANCED_CONSTRUCTORS \
@@ -92,23 +54,12 @@ public: \
 
 
 #define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_10_PROLOG
-#define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_GENERATED_BODY_LEGACY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_SPARSE_DATA \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_RPC_WRAPPERS \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_ACCESSORS \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_CALLBACK_WRAPPERS \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_INCLASS \
-	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
 #define FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_SPARSE_DATA \
+	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_ACCESSORS \
 	FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_13_CALLBACK_WRAPPERS \

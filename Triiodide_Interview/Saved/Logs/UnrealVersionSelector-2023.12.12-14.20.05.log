@@ -1,0 +1,53 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVisualStudioInstallations: Found Visual Studio installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.7.34024.191)
+WindowsPlatform.FindVisualStudioToolChains: Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822 (Version=14.37.32822)
+DynamicCompilation.RequiresCompilation: Compiling C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\BuildRules\UE4Rules.dll: Removed source file (D:\Build\++UE4\Sync\Engine\Source\Runtime\Advertising\Advertising\Advertising.Build.cs)
+DynamicCompilation.RequiresCompilation: Compiling C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\BuildRules\UE4ProgramRules.dll: Removed source file (D:\Build\++UE4\Sync\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Build.cs)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
+DynamicCompilation.RequiresCompilation: Compiling C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\Build\BuildRules\Triiodide_InterviewModuleRules.dll: Engine Version changed from 5.3.0 to 4.27.2
+DynamicCompilation.CompileAssembly: While compiling C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\Build\BuildRules\Triiodide_InterviewModuleRules.dll:
+DynamicCompilation.CompileAssembly: error CS0016: Could not write to output file 'c:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\Build\BuildRules\Triiodide_InterviewModuleRules.dll' -- 'The process cannot access the file because it is being used by another process. '
+UnrealBuildTool.Main: ERROR: Unable to compile source files.
+UnrealBuildTool.Main: BuildException: Unable to compile source files.
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 402
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 469
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, List`1 BaseDirs, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 110
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 581
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2334
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 774
+UnrealBuildTool.Main:    at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 208
+UnrealBuildTool.Main:    at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 557
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.019](+0.141) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.161](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.161](+0.038) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.161          [ 0.000](+0.018) Initializing InstalledPlatformInfo
+Timeline.Print:   0.180          [ 0.018](+0.000) Querying types
+Timeline.Print:   0.181          [ 0.020](+0.000) MacPlatformFactory
+Timeline.Print:   0.182          [ 0.020](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.182          [ 0.021](+0.011) AndroidPlatformFactory
+Timeline.Print:   0.193          [ 0.032](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.194          [ 0.032](+0.001) IOSPlatformFactory
+Timeline.Print:   0.196          [ 0.034](+0.002) LinuxPlatformFactory
+Timeline.Print:   0.199          [ 0.037](+0.000) LuminPlatformFactory
+Timeline.Print:   0.199          [ 0.037](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.199](+0.187) <unknown>
+Timeline.Print: [ 0.386](+0.001) Finding engine modules
+Timeline.Print: [ 0.388](+0.002) Finding plugin modules
+Timeline.Print: [ 0.399](+0.891) Compiling rules assembly (UE4Rules.dll)
+Timeline.Print: [ 1.306](+0.000) Finding program modules
+Timeline.Print: [ 1.306](+0.000) Finding program targets
+Timeline.Print: [ 1.307](+0.060) Compiling rules assembly (UE4ProgramRules.dll)
+Timeline.Print: [ 1.368](+0.042) <unknown>
+Timeline.Print: [ 1.411](+0.046) Compiling rules assembly (Triiodide_InterviewModuleRules.dll)
+Timeline.Print: [ 1.466](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 1.468]

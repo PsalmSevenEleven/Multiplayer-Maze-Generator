@@ -2,18 +2,8 @@
 	"ConfigurationsAndPlatforms": [
 		{
 			"Configuration": "Debug",
-			"Platform": "HoloLens",
-			"Target": "Client"
-		},
-		{
-			"Configuration": "Debug",
 			"Platform": "Win64",
 			"Target": "Client"
-		},
-		{
-			"Configuration": "Debug",
-			"Platform": "HoloLens",
-			"Target": "Editor"
 		},
 		{
 			"Configuration": "Debug",
@@ -22,18 +12,8 @@
 		},
 		{
 			"Configuration": "Debug",
-			"Platform": "HoloLens",
-			"Target": "Server"
-		},
-		{
-			"Configuration": "Debug",
 			"Platform": "Win64",
 			"Target": "Server"
-		},
-		{
-			"Configuration": "DebugGame",
-			"Platform": "HoloLens",
-			"Target": "Client"
 		},
 		{
 			"Configuration": "DebugGame",
@@ -42,18 +22,8 @@
 		},
 		{
 			"Configuration": "DebugGame",
-			"Platform": "HoloLens",
-			"Target": "Editor"
-		},
-		{
-			"Configuration": "DebugGame",
 			"Platform": "Win64",
 			"Target": "Editor"
-		},
-		{
-			"Configuration": "DebugGame",
-			"Platform": "HoloLens",
-			"Target": "Server"
 		},
 		{
 			"Configuration": "DebugGame",
@@ -62,17 +32,7 @@
 		},
 		{
 			"Configuration": "DebugGame",
-			"Platform": "HoloLens",
-			"Target": "Game"
-		},
-		{
-			"Configuration": "DebugGame",
 			"Platform": "Win64",
-			"Target": "Game"
-		},
-		{
-			"Configuration": "Debug",
-			"Platform": "HoloLens",
 			"Target": "Game"
 		},
 		{
@@ -82,18 +42,8 @@
 		},
 		{
 			"Configuration": "Development",
-			"Platform": "HoloLens",
-			"Target": "Client"
-		},
-		{
-			"Configuration": "Development",
 			"Platform": "Win64",
 			"Target": "Client"
-		},
-		{
-			"Configuration": "Development",
-			"Platform": "HoloLens",
-			"Target": "Editor"
 		},
 		{
 			"Configuration": "Development",
@@ -102,18 +52,8 @@
 		},
 		{
 			"Configuration": "Development",
-			"Platform": "HoloLens",
-			"Target": "Server"
-		},
-		{
-			"Configuration": "Development",
 			"Platform": "Win64",
 			"Target": "Server"
-		},
-		{
-			"Configuration": "Development",
-			"Platform": "HoloLens",
-			"Target": "Game"
 		},
 		{
 			"Configuration": "Development",
@@ -122,28 +62,13 @@
 		},
 		{
 			"Configuration": "Shipping",
-			"Platform": "HoloLens",
-			"Target": "Client"
-		},
-		{
-			"Configuration": "Shipping",
 			"Platform": "Win64",
 			"Target": "Client"
 		},
 		{
 			"Configuration": "Shipping",
-			"Platform": "HoloLens",
-			"Target": "Server"
-		},
-		{
-			"Configuration": "Shipping",
 			"Platform": "Win64",
 			"Target": "Server"
-		},
-		{
-			"Configuration": "Shipping",
-			"Platform": "HoloLens",
-			"Target": "Game"
 		},
 		{
 			"Configuration": "Shipping",
@@ -152,28 +77,13 @@
 		},
 		{
 			"Configuration": "Test",
-			"Platform": "HoloLens",
-			"Target": "Client"
-		},
-		{
-			"Configuration": "Test",
 			"Platform": "Win64",
 			"Target": "Client"
 		},
 		{
 			"Configuration": "Test",
-			"Platform": "HoloLens",
-			"Target": "Server"
-		},
-		{
-			"Configuration": "Test",
 			"Platform": "Win64",
 			"Target": "Server"
-		},
-		{
-			"Configuration": "Test",
-			"Platform": "HoloLens",
-			"Target": "Game"
 		},
 		{
 			"Configuration": "Test",

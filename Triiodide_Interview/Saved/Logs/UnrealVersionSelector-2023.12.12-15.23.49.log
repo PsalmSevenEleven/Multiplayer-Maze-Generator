@@ -1,0 +1,78 @@
+Log started at 12/12/2023 15:23:49 (2023-12-12T20:23:49Z)
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+No config file at C:\Users\Caleb\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\Caleb\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Saved\Logs\UnrealVersionSelector-2023.12.12-15.23.49.log
+
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+        Registering build platform: IOS - buildable: False
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+        Registering build platform: Linux - buildable: False
+        Registering build platform: LinuxArm64 - buildable: False
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22000.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.HoloLensPlatformFactory
+Log file: C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log_GPF.txt
+Resolved project argument C:/Users/Caleb/Documents/GitHub/Triiodide-Training-Project/Triiodide_Interview/Triiodide_Interview.uproject to C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Triiodide_Interview.uproject
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Skipping project file generator registration for Mac due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Skipping project file generator registration for TVOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.HoloLensProjectGenerator for HoloLens
+Skipping project file generator registration for HoloLens due to no valid BuildPlatform.
+
+---   SDK INFO START   ---
+
+Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+See the log file for detailed information
+
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Found Visual Studio installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.7.34024.191)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822 (Family=14.37.32822, FamilyRank=2, Version=14.37.32822, Is64Bit=True, Preview=False, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.36.32532)
+Detected supported platforms: Win64, IOS, Android, Linux, LinuxArm64
+Skipping C:\Program Files\Epic Games\UE_5.2\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.2\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling C:\Users\Caleb\AppData\Local\UnrealEngine\Intermediate\Build\BuildRules\MarketplaceRules.dll: Assembly does not exist
+Generating target Editor for C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\ProjectFiles\UE5.vcxproj
+Creating project rules assembly for C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Triiodide_Interview.uproject...
+ Found 0 Plugins:
+ Found 1 Modules:
+  C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Source\Triiodide_Interview\Triiodide_Interview.Build.cs
+Compiling C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Intermediate\Build\BuildRules\Triiodide_InterviewModuleRules.dll: Engine Version changed from 5.3.2 to 5.2.0
+C:\Users\Caleb\Documents\GitHub\Triiodide-Training-Project\Triiodide_Interview\Source\Triiodide_Interview.Target.cs(11,47): error CS0117: 'BuildSettingsVersion' does not contain a definition for 'V4'
+Expecting to find a type to be declared in a target rules named 'Triiodide_InterviewTarget'.  This type must derive from the 'TargetRules' type defined by Unreal Build Tool.
+BuildException: Expecting to find a type to be declared in a target rules named 'Triiodide_InterviewTarget'.  This type must derive from the 'TargetRules' type defined by Unreal Build Tool.
+   at UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, UnrealArchitectures Architectures, FileReference ProjectFile, CommandLineArguments Arguments, ILogger Logger, Boolean IsTestTarget, Boolean bSkipValidation) in C:\Program Files\Epic Games\UE_5.2\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 782
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger) in C:\Program Files\Epic Games\UE_5.2\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2450
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, ILogger Logger) in C:\Program Files\Epic Games\UE_5.2\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 916
+   at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments, ILogger Logger) in C:\Program Files\Epic Games\UE_5.2\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 67
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in C:\Program Files\Epic Games\UE_5.2\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 599
+WriteFileIfChanged() wrote 0 changed files of 0 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+3.521) <unknown>
+[ 3.521]

@@ -56,15 +56,7 @@ void ACPP_SurvivalCharacter::BeginPlay()
 void ACPP_SurvivalCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (UKismetMathLibrary::VSize2D(FVector2D(GetVelocity().X, GetVelocity().Y)) > 1)
-	{
-		StartFootstepTimer(false);
-	}
-	else
-	{
-		StopFootstepTimer();
-	}
+	
 }
 
 // Called to bind functionality to input
@@ -108,15 +100,19 @@ void ACPP_SurvivalCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 void ACPP_SurvivalCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
-	DOREPLIFETIME(ACPP_SurvivalCharacter, ControlRotation);
+	
 }
 
 //Moves the player around
 void ACPP_SurvivalCharacter::Move(const FInputActionValue& ActionValue)
 {
 	FVector Input = ActionValue.Get<FInputActionValue::Axis3D>();
-	GetCharacterMovement()->AddInputVector(GetActorRotation().RotateVector(Input));
+	AddMovementInput(GetActorRotation().RotateVector(Input));
+
+	/*if (!FootstepTimerHandle.IsValid())
+	{
+		StartFootstepTimer();
+	}*/
 }
 
 //Tells the player character what its ControlRotation variable should be
@@ -124,25 +120,22 @@ void ACPP_SurvivalCharacter::Look(const FInputActionValue& ActionValue)
 {
 	
 	//Making sure this character is locally controlled
-	if (GetLocalRole() == ROLE_AutonomousProxy)
+	if (GetLocalRole() != ROLE_SimulatedProxy)
 	{
 		//get the input from the player controller
-		FRotator Input(ActionValue[0], ActionValue[1], ActionValue[2]);
+		FRotator Input(
+			FMath::ClampAngle(ActionValue[0], -89.9f, 89.9f),
+			ActionValue[1],
+			0
+			);
 
 		//Scale by MouseSensitivity
 		Input *= GetWorld()->GetDeltaSeconds()* MouseSensitivity;
-
-		//Add to the player's current control rotation
-		Input += Controller->GetControlRotation();
-
-		//Keep the player from navel-gazing or playing limbo
-		Input.Pitch = FMath::ClampAngle(Input.Pitch, -89.9f, 89.9f);
-
-		//Make sure the player doesn't start rolling sideways
-		Input.Roll = 0.f;
-
-		//Replicate ControlRotation
-		Controller->SetControlRotation(Input);
+		
+		//Add the input
+		//pitch is inverted for whatever reason, thus the -
+		AddControllerPitchInput(-Input.Pitch);
+		AddControllerYawInput(Input.Yaw);
 	}
 }
 
@@ -171,32 +164,13 @@ void ACPP_SurvivalCharacter::Use(const FInputActionValue& ActionValue)
 
 }
 
-//Setting ControlRotation on the server
-void ACPP_SurvivalCharacter::ServerLook_Implementation(FRotator Rot)
+void ACPP_SurvivalCharacter::StartFootstepTimer()
 {
-	ControlRotation = Rot;
-}
-
-void ACPP_SurvivalCharacter::StartFootstepTimer(bool Reset)
-{
-	static bool StartTimer = true;
-
-	if (Reset)
-	{
-		StartTimer = true;
-		return;
-	}
-
-	if (StartTimer)
-	{
-		GetWorld()->GetTimerManager().SetTimer(FootstepTimerHandle, FTimerDelegate::CreateLambda([&] {FootstepComp->Play(); }), FootstepInterval, true);
-		StartTimer = false;
-	}
+	GetWorld()->GetTimerManager().SetTimer(FootstepTimerHandle, FTimerDelegate::CreateLambda([&] {FootstepComp->Play(); }), FootstepInterval, true);
 }
 
 void ACPP_SurvivalCharacter::StopFootstepTimer()
 {
 	FootstepComp->Play();
 	GetWorld()->GetTimerManager().ClearTimer(FootstepTimerHandle);
-	StartFootstepTimer(true);
 }

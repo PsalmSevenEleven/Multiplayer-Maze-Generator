@@ -58,9 +58,12 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalPlayerController() {}
 		(UObject* (*)())Z_Construct_UClass_APlayerController,
 		(UObject* (*)())Z_Construct_UPackage__Script_Triiodide_Interview,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "CPP_SurvivalPlayerController.h" },
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
@@ -71,31 +74,31 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalPlayerController() {}
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext = { "PawnMappingContext", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalPlayerController, PawnMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext = { "PawnMappingContext", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalPlayerController, PawnMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext_MetaData), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction_MetaData[] = {
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalPlayerController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalPlayerController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction_MetaData), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction_MetaData[] = {
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction = { "MouseLookAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalPlayerController, MouseLookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction = { "MouseLookAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalPlayerController, MouseLookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction_MetaData), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MouseLookAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction_MetaData[] = {
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction = { "InteractAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalPlayerController, InteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction = { "InteractAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalPlayerController, InteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction_MetaData), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_InteractAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction_MetaData[] = {
 		{ "ModuleRelativePath", "CPP_SurvivalPlayerController.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction = { "UseAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalPlayerController, UseAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction = { "UseAction", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalPlayerController, UseAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction_MetaData), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_UseAction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_PawnMappingContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::NewProp_MoveAction,
@@ -119,8 +122,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalPlayerController() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::PropPointers),
 		0,
 		0x009002A4u,
-		METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::Class_MetaDataParams), Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalPlayerController_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_ACPP_SurvivalPlayerController()
 	{
 		if (!Z_Registration_Info_UClass_ACPP_SurvivalPlayerController.OuterSingleton)
@@ -141,9 +145,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalPlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalPlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_SurvivalPlayerController, ACPP_SurvivalPlayerController::StaticClass, TEXT("ACPP_SurvivalPlayerController"), &Z_Registration_Info_UClass_ACPP_SurvivalPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_SurvivalPlayerController), 1458433426U) },
+		{ Z_Construct_UClass_ACPP_SurvivalPlayerController, ACPP_SurvivalPlayerController::StaticClass, TEXT("ACPP_SurvivalPlayerController"), &Z_Registration_Info_UClass_ACPP_SurvivalPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_SurvivalPlayerController), 2311559450U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalPlayerController_h_158209365(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalPlayerController_h_1649321138(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalPlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

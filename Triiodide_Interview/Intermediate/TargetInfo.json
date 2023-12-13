@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Triiodide_Interview",
-			"Path": "C:\\Users\\Caleb\\Documents\\GitHub\\Triiodide-Training-Project\\Triiodide_Interview\\Source\\Triiodide_Interview.Target.cs",
+			"Path": "..\\Source\\Triiodide_Interview.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Triiodide_InterviewEditor",
-			"Path": "C:\\Users\\Caleb\\Documents\\GitHub\\Triiodide-Training-Project\\Triiodide_Interview\\Source\\Triiodide_InterviewEditor.Target.cs",
+			"Path": "..\\Source\\Triiodide_InterviewEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

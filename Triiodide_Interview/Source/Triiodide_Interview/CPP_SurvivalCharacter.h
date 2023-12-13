@@ -17,33 +17,25 @@ public:
 	ACPP_SurvivalCharacter();
 
 
-	/*Actor components*/
-
-	//Camera boom
+#pragma region Components
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated)
 		class USpringArmComponent* CameraBoom;
-
-	//Player's camera
+	
 	UPROPERTY(EditAnywhere)
 		class UCameraComponent* Camera;
-
-	//Movement component
-	UPROPERTY(EditAnywhere)
-		UCharacterMovementComponent* MovementComp;
 
 	//Footstep audio
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAudioComponent* FootstepComp;
 
-	/*Control-related variables*/
+#pragma endregion Components
+
 
 	//Amount to turn when given mouse input
 	UPROPERTY(EditAnywhere)
 		float MouseSensitivity;
-
-	//Player's control rotation
-	UPROPERTY(Replicated)
-		FRotator ControlRotation = FRotator();
+	
 
 	//How far away the player can interact with objects
 	UPROPERTY(EditAnywhere)
@@ -66,10 +58,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	//Overridden to allow variable replication
-	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
-
+	
 	//Handle movement input
 	void Move(const struct FInputActionValue& ActionValue);
 
@@ -85,11 +74,7 @@ public:
 	//Use current object. In this case it's just the player's flashlight, but it could be expanded to be any tool.
 	virtual void Use(const struct FInputActionValue& ActionValue);
 
-	//Lets the server know where the player is looking
-	UFUNCTION(Server, Unreliable)
-		void ServerLook(FRotator Rot);
-
-	void StartFootstepTimer(bool Reset);
+	void StartFootstepTimer();
 
 	void StopFootstepTimer();
 };

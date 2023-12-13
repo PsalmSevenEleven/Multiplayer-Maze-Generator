@@ -35,9 +35,12 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Triiodide_InterviewGSBase() {}
 		(UObject* (*)())Z_Construct_UClass_AGameStateBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_Triiodide_Interview,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "HideCategories", "Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "CPP_Triiodide_InterviewGSBase.h" },
 		{ "ModuleRelativePath", "CPP_Triiodide_InterviewGSBase.h" },
@@ -60,7 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Triiodide_InterviewGSBase() {}
 		0,
 		0,
 		0x009002A4u,
-		METADATA_PARAMS(Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::Class_MetaDataParams), Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase()
 	{
@@ -82,9 +85,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Triiodide_InterviewGSBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_Triiodide_InterviewGSBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase, ACPP_Triiodide_InterviewGSBase::StaticClass, TEXT("ACPP_Triiodide_InterviewGSBase"), &Z_Registration_Info_UClass_ACPP_Triiodide_InterviewGSBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Triiodide_InterviewGSBase), 86613066U) },
+		{ Z_Construct_UClass_ACPP_Triiodide_InterviewGSBase, ACPP_Triiodide_InterviewGSBase::StaticClass, TEXT("ACPP_Triiodide_InterviewGSBase"), &Z_Registration_Info_UClass_ACPP_Triiodide_InterviewGSBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Triiodide_InterviewGSBase), 2697787699U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_Triiodide_InterviewGSBase_h_2118083882(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_Triiodide_InterviewGSBase_h_3657917647(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_Triiodide_InterviewGSBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_Triiodide_InterviewGSBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

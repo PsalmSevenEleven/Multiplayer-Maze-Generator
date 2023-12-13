@@ -8,7 +8,7 @@ public class Triiodide_InterviewTarget : TargetRules
 	public Triiodide_InterviewTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 		ExtraModuleNames.Add("Triiodide_Interview");
 	}
 }

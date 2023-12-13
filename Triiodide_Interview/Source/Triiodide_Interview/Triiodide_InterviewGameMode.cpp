@@ -19,6 +19,8 @@ ATriiodide_InterviewGameMode::ATriiodide_InterviewGameMode()
 
 void ATriiodide_InterviewGameMode::CompleteKey()
 {
+	ensure(GameState);
+	
 	GetGameState<ACPP_Triiodide_InterviewGSBase>()->CompletedKeys++;
 	if (GetGameState<ACPP_Triiodide_InterviewGSBase>()->CompletedKeys == NumKeys)
 	{

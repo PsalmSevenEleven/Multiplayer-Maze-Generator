@@ -9,24 +9,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 // Cross Module References
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	TRIIODIDE_INTERVIEW_API UClass* Z_Construct_UClass_ACPP_SurvivalCharacter();
 	TRIIODIDE_INTERVIEW_API UClass* Z_Construct_UClass_ACPP_SurvivalCharacter_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Triiodide_Interview();
 // End Cross Module References
-	DEFINE_FUNCTION(ACPP_SurvivalCharacter::execServerLook)
-	{
-		P_GET_STRUCT(FRotator,Z_Param_Rot);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->ServerLook_Implementation(Z_Param_Rot);
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(ACPP_SurvivalCharacter::execServerInteract)
 	{
 		P_FINISH;
@@ -34,28 +24,16 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		P_THIS->ServerInteract_Implementation();
 		P_NATIVE_END;
 	}
-	struct CPP_SurvivalCharacter_eventServerLook_Parms
-	{
-		FRotator Rot;
-	};
 	static FName NAME_ACPP_SurvivalCharacter_ServerInteract = FName(TEXT("ServerInteract"));
 	void ACPP_SurvivalCharacter::ServerInteract()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ACPP_SurvivalCharacter_ServerInteract),NULL);
-	}
-	static FName NAME_ACPP_SurvivalCharacter_ServerLook = FName(TEXT("ServerLook"));
-	void ACPP_SurvivalCharacter::ServerLook(FRotator Rot)
-	{
-		CPP_SurvivalCharacter_eventServerLook_Parms Parms;
-		Parms.Rot=Rot;
-		ProcessEvent(FindFunctionChecked(NAME_ACPP_SurvivalCharacter_ServerLook),&Parms);
 	}
 	void ACPP_SurvivalCharacter::StaticRegisterNativesACPP_SurvivalCharacter()
 	{
 		UClass* Class = ACPP_SurvivalCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ServerInteract", &ACPP_SurvivalCharacter::execServerInteract },
-			{ "ServerLook", &ACPP_SurvivalCharacter::execServerLook },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -71,43 +49,13 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_SurvivalCharacter, nullptr, "ServerInteract", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_SurvivalCharacter, nullptr, "ServerInteract", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::Function_MetaDataParams), Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics
-	{
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Rot;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::NewProp_Rot = { "Rot", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(CPP_SurvivalCharacter_eventServerLook_Parms, Rot), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::NewProp_Rot,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//Lets the server know where the player is looking\n" },
-		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Lets the server know where the player is looking" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_SurvivalCharacter, nullptr, "ServerLook", nullptr, nullptr, sizeof(CPP_SurvivalCharacter_eventServerLook_Parms), Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00A20C40, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -132,10 +80,6 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MovementComp_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_MovementComp;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_FootstepComp_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FootstepComp;
@@ -143,10 +87,6 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MouseSensitivity_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_MouseSensitivity;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_ControlRotation_MetaData[];
-#endif
-		static const UECodeGen_Private::FStructPropertyParams NewProp_ControlRotation;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerReach_MetaData[];
 #endif
@@ -163,10 +103,11 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Triiodide_Interview,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract, "ServerInteract" }, // 4027643361
-		{ &Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerLook, "ServerLook" }, // 1065992047
+		{ &Z_Construct_UFunction_ACPP_SurvivalCharacter_ServerInteract, "ServerInteract" }, // 1369685363
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -177,85 +118,77 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
-		{ "Comment", "/*Actor components*///Camera boom\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Actor components//Camera boom" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x001000000008003d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x001000000008003d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
-		{ "Comment", "//Player's camera\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Player's camera" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MovementComp_MetaData[] = {
-		{ "Category", "CPP_SurvivalCharacter" },
-		{ "Comment", "//Movement component\n" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Movement component" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MovementComp = { "MovementComp", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, MovementComp), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MovementComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MovementComp_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//Footstep audio\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Footstep audio" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp = { "FootstepComp", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, FootstepComp), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp = { "FootstepComp", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, FootstepComp), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
-		{ "Comment", "/*Control-related variables*///Amount to turn when given mouse input\n" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//Amount to turn when given mouse input\n" },
+#endif
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Control-related variables//Amount to turn when given mouse input" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Amount to turn when given mouse input" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity = { "MouseSensitivity", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, MouseSensitivity), METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_ControlRotation_MetaData[] = {
-		{ "Comment", "//Player's control rotation\n" },
-		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
-		{ "ToolTip", "Player's control rotation" },
-	};
-#endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_ControlRotation = { "ControlRotation", nullptr, (EPropertyFlags)0x0010000000000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, ControlRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_ControlRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_ControlRotation_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity = { "MouseSensitivity", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, MouseSensitivity), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//How far away the player can interact with objects\n" },
+#endif
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How far away the player can interact with objects" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach = { "PlayerReach", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, PlayerReach), METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach = { "PlayerReach", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, PlayerReach), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval_MetaData[] = {
 		{ "Category", "CPP_SurvivalCharacter" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//Time between footsteps\n" },
+#endif
 		{ "ModuleRelativePath", "CPP_SurvivalCharacter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Time between footsteps" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval = { "FootstepInterval", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_SurvivalCharacter, FootstepInterval), METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval = { "FootstepInterval", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACPP_SurvivalCharacter, FootstepInterval), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval_MetaData), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_Camera,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MovementComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_MouseSensitivity,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_ControlRotation,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_PlayerReach,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::NewProp_FootstepInterval,
 	};
@@ -275,8 +208,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_SurvivalCharacter_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_ACPP_SurvivalCharacter()
 	{
 		if (!Z_Registration_Info_UClass_ACPP_SurvivalCharacter.OuterSingleton)
@@ -293,11 +227,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 	void ACPP_SurvivalCharacter::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 	{
 		static const FName Name_CameraBoom(TEXT("CameraBoom"));
-		static const FName Name_ControlRotation(TEXT("ControlRotation"));
 
 		const bool bIsValid = true
-			&& Name_CameraBoom == ClassReps[(int32)ENetFields_Private::CameraBoom].Property->GetFName()
-			&& Name_ControlRotation == ClassReps[(int32)ENetFields_Private::ControlRotation].Property->GetFName();
+			&& Name_CameraBoom == ClassReps[(int32)ENetFields_Private::CameraBoom].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ACPP_SurvivalCharacter"));
 	}
@@ -308,9 +240,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_SurvivalCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_SurvivalCharacter, ACPP_SurvivalCharacter::StaticClass, TEXT("ACPP_SurvivalCharacter"), &Z_Registration_Info_UClass_ACPP_SurvivalCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_SurvivalCharacter), 2631169054U) },
+		{ Z_Construct_UClass_ACPP_SurvivalCharacter, ACPP_SurvivalCharacter::StaticClass, TEXT("ACPP_SurvivalCharacter"), &Z_Registration_Info_UClass_ACPP_SurvivalCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_SurvivalCharacter), 1066301315U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_1369171267(TEXT("/Script/Triiodide_Interview"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_2704604251(TEXT("/Script/Triiodide_Interview"),
 		Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Caleb_Documents_GitHub_Triiodide_Training_Project_Triiodide_Interview_Source_Triiodide_Interview_CPP_SurvivalCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
